@@ -1,0 +1,2425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TKM Starter\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-07 08:46+0000\n"
+"PO-Revision-Date: 2019-07-07 09:05+0000\n"
+"Last-Translator: rozenlaw <tal@tkmedia.co.il>\n"
+"Language-Team: עִבְרִית\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: inc/acf-archive.php:7
+msgid "Archive settings"
+msgstr "הגדרות קטגורית פוסטים"
+
+#: inc/acf-archive.php:11
+msgid "Top Masthead"
+msgstr "Masthead עליון"
+
+#: inc/acf-archive.php:27
+msgid "Main banner image"
+msgstr "תמונת באנר עליון ראשית"
+
+#: inc/acf-archive.php:51
+msgid "Articles layout"
+msgstr "פריסת מאמרים"
+
+#: inc/acf-archive.php:67
+msgid "Articles per row"
+msgstr "מאמרים בשורה"
+
+#: inc/acf-archive.php:70
+msgid "Between 1-5"
+msgstr "בין 1-5"
+
+#: inc/acf-archive.php:88 inc/acf-blocks.php:8594 inc/acf-blocks.php:10723
+msgid "Slider style"
+msgstr "סגנון הסליידר"
+
+#: inc/acf-blocks.php:8
+msgid "Flexible page content"
+msgstr "תוכן דינמי"
+
+#: inc/acf-blocks.php:12
+msgid "Flexible Content"
+msgstr "תוכן דינמי"
+
+#: inc/acf-blocks.php:28
+msgid "Content Row"
+msgstr "אזור תוכן"
+
+#: inc/acf-blocks.php:47
+msgid "Row Background image"
+msgstr "תמונת רקע לאזור"
+
+#: inc/acf-blocks.php:71 inc/acf-masthead.php:177
+msgid "Show section divider"
+msgstr "הצג חוצץ מעוצב"
+
+#: inc/acf-blocks.php:90
+msgid "Show section wrap lines"
+msgstr "הצג קווי מסגרת לשורת רכיבים"
+
+#: inc/acf-blocks.php:109
+msgid "Cancel auto wrap - Full Page Wrap"
+msgstr "ביטול רוחב תוכן - רוחב מסך מלא"
+
+#: inc/acf-blocks.php:128
+msgid "Delete padding between Columns"
+msgstr "בטל ריווח בין עמודות"
+
+#: inc/acf-blocks.php:147
+msgid "Vertically align columns in row"
+msgstr "יישור אנכי של העמודות"
+
+#: inc/acf-blocks.php:166
+msgid "Top Padding"
+msgstr "ריווח עליון"
+
+#: inc/acf-blocks.php:187
+msgid "Bottom Padding"
+msgstr "ריווח תחתון"
+
+#: inc/acf-blocks.php:208
+msgid "Right Padding"
+msgstr "ריווח מימין"
+
+#: inc/acf-blocks.php:229
+msgid "Left Padding"
+msgstr "ריווח משמאל"
+
+#: inc/acf-blocks.php:250
+msgid "Top Wrap line"
+msgstr "קו היקפי עליון"
+
+#: inc/acf-blocks.php:270 inc/acf-blocks.php:310
+msgid "short right"
+msgstr "קצר מימין"
+
+#: inc/acf-blocks.php:271 inc/acf-blocks.php:311
+msgid "short left"
+msgstr "קצר משמאל"
+
+#: inc/acf-blocks.php:272 inc/acf-blocks.php:312
+msgid "middle right"
+msgstr "ארוך מימין"
+
+#: inc/acf-blocks.php:273 inc/acf-blocks.php:313
+msgid "middle left"
+msgstr "ארוך משמאל"
+
+#: inc/acf-blocks.php:274
+msgid "Top full"
+msgstr "עליון מלא"
+
+#: inc/acf-blocks.php:275 inc/acf-blocks.php:315
+msgid "short right short left"
+msgstr "קצר מימין וקצר משמאל"
+
+#: inc/acf-blocks.php:276 inc/acf-blocks.php:316
+msgid "middle right short left"
+msgstr "ארוך מימין קצר משמאל"
+
+#: inc/acf-blocks.php:277 inc/acf-blocks.php:317
+msgid "short right middle left"
+msgstr "קצר מימין ארוך משמאל"
+
+#: inc/acf-blocks.php:290
+msgid "Bottom Wrap line"
+msgstr "קו היקפי תחתון"
+
+#: inc/acf-blocks.php:314
+msgid "Bootom full"
+msgstr "תחתון מלא"
+
+#: inc/acf-blocks.php:330
+msgid "Right Wrap line"
+msgstr "קו היקפי ימין"
+
+#: inc/acf-blocks.php:350
+msgid "Full right"
+msgstr "קו מלא ימין"
+
+#: inc/acf-blocks.php:363
+msgid "Left Wrap line"
+msgstr "קו היקפי משמאל"
+
+#: inc/acf-blocks.php:383
+msgid "Full left"
+msgstr "קו מלא שמאל"
+
+#: inc/acf-blocks.php:396
+msgid "Top line padd"
+msgstr "ריווח קו עליון"
+
+#: inc/acf-blocks.php:425
+msgid "Bottom line padd"
+msgstr "ריווח קו תחתון"
+
+#: inc/acf-blocks.php:454 inc/acf-blocks.php:1981
+msgid "Right Overlay Color"
+msgstr "צבע רקע מימין"
+
+#: inc/acf-blocks.php:469 inc/acf-blocks.php:1996
+msgid "Left Overlay Color"
+msgstr "צבע רקע משמאל"
+
+#: inc/acf-blocks.php:484
+msgid "Right Overlay Opacity"
+msgstr "שקיפות רקע ימין"
+
+#: inc/acf-blocks.php:505
+msgid "Left Overlay Opacity"
+msgstr "שקיפות צבע רקע"
+
+#: inc/acf-blocks.php:526 inc/acf-blocks.php:2011
+msgid "Rotate Gradient bg"
+msgstr "סובב צבע רקע"
+
+#: inc/acf-blocks.php:547 inc/acf-masthead.php:216
+msgid "Top divider section"
+msgstr "חוצץ עליון"
+
+#: inc/acf-blocks.php:567 inc/acf-blocks.php:758 inc/acf-masthead.php:236
+#: inc/acf-masthead.php:427
+msgid "Waves"
+msgstr "גלים"
+
+#: inc/acf-blocks.php:568 inc/acf-blocks.php:759 inc/acf-masthead.php:237
+#: inc/acf-masthead.php:428
+msgid "Opacity waves"
+msgstr "גלים במניפה"
+
+#: inc/acf-blocks.php:569 inc/acf-blocks.php:760 inc/acf-masthead.php:238
+#: inc/acf-masthead.php:429
+msgid "Mountains"
+msgstr "הרים"
+
+#: inc/acf-blocks.php:570 inc/acf-blocks.php:761 inc/acf-masthead.php:239
+#: inc/acf-masthead.php:430
+msgid "Drops"
+msgstr "טיפות"
+
+#: inc/acf-blocks.php:571 inc/acf-blocks.php:762 inc/acf-masthead.php:240
+#: inc/acf-masthead.php:431
+msgid "Opacity clouds"
+msgstr "עננים במניפה"
+
+#: inc/acf-blocks.php:572 inc/acf-blocks.php:763 inc/acf-masthead.php:241
+#: inc/acf-masthead.php:432
+msgid "Big clouds"
+msgstr "עננים גדולים"
+
+#: inc/acf-blocks.php:573 inc/acf-blocks.php:764 inc/acf-masthead.php:242
+#: inc/acf-masthead.php:433
+msgid "Pyramids"
+msgstr "פירמידות"
+
+#: inc/acf-blocks.php:574 inc/acf-blocks.php:765 inc/acf-masthead.php:243
+#: inc/acf-masthead.php:434
+msgid "Triangle"
+msgstr "משולש"
+
+#: inc/acf-blocks.php:575 inc/acf-blocks.php:766 inc/acf-masthead.php:244
+#: inc/acf-masthead.php:435
+msgid "Circle"
+msgstr "חצי עיגול"
+
+#: inc/acf-blocks.php:576 inc/acf-blocks.php:767 inc/acf-masthead.php:245
+#: inc/acf-masthead.php:436
+msgid "Right tilt"
+msgstr "הטיה ימינה"
+
+#: inc/acf-blocks.php:577 inc/acf-blocks.php:768 inc/acf-masthead.php:246
+#: inc/acf-masthead.php:437
+msgid "Left tilt"
+msgstr "הטיה שמאלה"
+
+#: inc/acf-blocks.php:578 inc/acf-blocks.php:769 inc/acf-masthead.php:247
+#: inc/acf-masthead.php:438
+msgid "Right opacity tilt"
+msgstr "הטיה ימינה במניפה"
+
+#: inc/acf-blocks.php:579 inc/acf-blocks.php:770 inc/acf-masthead.php:248
+#: inc/acf-masthead.php:439
+msgid "Left opacity tilt"
+msgstr "הטיה שמאלה במניפה"
+
+#: inc/acf-blocks.php:580 inc/acf-blocks.php:771 inc/acf-masthead.php:249
+#: inc/acf-masthead.php:440
+msgid "Triangle opacity"
+msgstr "משולש במניפה"
+
+#: inc/acf-blocks.php:581 inc/acf-blocks.php:772 inc/acf-masthead.php:250
+#: inc/acf-masthead.php:441
+msgid "Right Arc"
+msgstr "קשת ימינה"
+
+#: inc/acf-blocks.php:582 inc/acf-blocks.php:773 inc/acf-masthead.php:251
+#: inc/acf-masthead.php:442
+msgid "Left Arc"
+msgstr "קשת שמאלה"
+
+#: inc/acf-blocks.php:583 inc/acf-blocks.php:774 inc/acf-masthead.php:252
+#: inc/acf-masthead.php:443
+msgid "Opacity Circle"
+msgstr "חצי עיגול במניפה"
+
+#: inc/acf-blocks.php:584 inc/acf-blocks.php:775 inc/acf-masthead.php:253
+#: inc/acf-masthead.php:444
+msgid "Right Arc opacity"
+msgstr "קשת ימינה במניפה"
+
+#: inc/acf-blocks.php:585 inc/acf-blocks.php:776 inc/acf-masthead.php:254
+#: inc/acf-masthead.php:445
+msgid "Left Arc opacity"
+msgstr "קשת שמאלה במניפה"
+
+#: inc/acf-blocks.php:586 inc/acf-blocks.php:777 inc/acf-masthead.php:255
+#: inc/acf-masthead.php:446
+msgid "Arrow"
+msgstr "חץ"
+
+#: inc/acf-blocks.php:587 inc/acf-blocks.php:778 inc/acf-masthead.php:256
+#: inc/acf-masthead.php:447
+msgid "Cross"
+msgstr "קרוס"
+
+#: inc/acf-blocks.php:588 inc/acf-blocks.php:779 inc/acf-masthead.php:257
+#: inc/acf-masthead.php:448
+msgid "Water-color"
+msgstr "צבעי מים"
+
+#: inc/acf-blocks.php:589 inc/acf-blocks.php:780 inc/acf-masthead.php:258
+#: inc/acf-masthead.php:449
+msgid "Water-color spread"
+msgstr "צבעי מים מרוחים"
+
+#: inc/acf-blocks.php:590 inc/acf-blocks.php:781 inc/acf-masthead.php:259
+#: inc/acf-masthead.php:450
+msgid "Brush spread"
+msgstr "מברשת צבע"
+
+#: inc/acf-blocks.php:603 inc/acf-masthead.php:272
+msgid "Top divider section - fill color"
+msgstr "חוצץ עליון - צבע מילוי"
+
+#: inc/acf-blocks.php:636 inc/acf-masthead.php:305
+msgid "Top divider section - BG color"
+msgstr "חוצץ עליון - צבע רקע"
+
+#: inc/acf-blocks.php:669 inc/acf-masthead.php:338
+msgid "Top divider section - height"
+msgstr "חוצץ עליון - גובה"
+
+#: inc/acf-blocks.php:708 inc/acf-masthead.php:377
+msgid "Top divider section - position"
+msgstr "חוצץ עליון - מיקום"
+
+#: inc/acf-blocks.php:728 inc/acf-blocks.php:919 inc/acf-masthead.php:397
+#: inc/acf-masthead.php:588
+msgid "Behind content"
+msgstr "מאחורי התוכן"
+
+#: inc/acf-blocks.php:729 inc/acf-blocks.php:920 inc/acf-masthead.php:398
+#: inc/acf-masthead.php:589
+msgid "On top content"
+msgstr "מעל התוכן"
+
+#: inc/acf-blocks.php:738 inc/acf-masthead.php:407
+msgid "Bottom divider section"
+msgstr "חוצץ תחתון"
+
+#: inc/acf-blocks.php:794 inc/acf-masthead.php:463
+msgid "Bottom divider section - fill color"
+msgstr "חוצץ תחתון - צבע מילוי"
+
+#: inc/acf-blocks.php:827 inc/acf-masthead.php:496
+msgid "Bottom divider section - BG color"
+msgstr "חוצץ תחתון - צבע רקע"
+
+#: inc/acf-blocks.php:860 inc/acf-masthead.php:529
+msgid "Bottom divider section - height"
+msgstr "חוצץ תחתון - גובה"
+
+#: inc/acf-blocks.php:899 inc/acf-masthead.php:568
+msgid "Bottom divider section - position"
+msgstr "חוצץ תחתון - מיקום"
+
+#: inc/acf-blocks.php:929
+msgid "Content Elements"
+msgstr "אלמנטי תוכן"
+
+#: inc/acf-blocks.php:944
+msgid "Styled Title"
+msgstr "כותרת מעוצבת"
+
+#: inc/acf-blocks.php:949 inc/acf-blocks.php:1417 inc/acf-blocks.php:1797
+#: inc/acf-blocks.php:2333 inc/acf-blocks.php:3276 inc/acf-blocks.php:3941
+#: inc/acf-blocks.php:4231 inc/acf-blocks.php:4866 inc/acf-blocks.php:5368
+#: inc/acf-blocks.php:5971 inc/acf-blocks.php:6517 inc/acf-blocks.php:6947
+#: inc/acf-blocks.php:7268 inc/acf-blocks.php:7685 inc/acf-blocks.php:8389
+#: inc/acf-blocks.php:8930 inc/acf-blocks.php:9280 inc/acf-blocks.php:9582
+#: inc/acf-blocks.php:9954 inc/acf-blocks.php:10308 inc/acf-blocks.php:10539
+#: inc/acf-blocks.php:10881 inc/acf-blocks.php:11126 inc/acf-blocks.php:11421
+#: inc/acf-blocks.php:12070 inc/acf-options.php:1044 inc/acf-options.php:1207
+msgid "Block Width"
+msgstr "רוחב עמודה"
+
+#: inc/acf-blocks.php:961 inc/acf-blocks.php:1429 inc/acf-blocks.php:1809
+#: inc/acf-blocks.php:2345 inc/acf-blocks.php:3288 inc/acf-blocks.php:3953
+#: inc/acf-blocks.php:4243 inc/acf-blocks.php:4878 inc/acf-blocks.php:5380
+#: inc/acf-blocks.php:5983 inc/acf-blocks.php:6529 inc/acf-blocks.php:6959
+#: inc/acf-blocks.php:7280 inc/acf-blocks.php:7697 inc/acf-blocks.php:8401
+#: inc/acf-blocks.php:8942 inc/acf-blocks.php:9292 inc/acf-blocks.php:9594
+#: inc/acf-blocks.php:9966 inc/acf-blocks.php:10320 inc/acf-blocks.php:10551
+#: inc/acf-blocks.php:10893 inc/acf-blocks.php:11138 inc/acf-blocks.php:11433
+#: inc/acf-blocks.php:12082 inc/acf-options.php:1056 inc/acf-options.php:1219
+msgid "full width"
+msgstr "רוחב מלא"
+
+#: inc/acf-blocks.php:987 inc/acf-blocks.php:1455 inc/acf-blocks.php:1835
+#: inc/acf-blocks.php:2371 inc/acf-blocks.php:3314 inc/acf-blocks.php:3979
+#: inc/acf-blocks.php:4269 inc/acf-blocks.php:4904 inc/acf-blocks.php:5406
+#: inc/acf-blocks.php:6009 inc/acf-blocks.php:6555 inc/acf-blocks.php:6985
+#: inc/acf-blocks.php:7305 inc/acf-blocks.php:7723 inc/acf-blocks.php:8427
+#: inc/acf-blocks.php:8968 inc/acf-blocks.php:9318 inc/acf-blocks.php:9620
+#: inc/acf-blocks.php:9992 inc/acf-blocks.php:10346 inc/acf-blocks.php:10577
+#: inc/acf-blocks.php:10919 inc/acf-blocks.php:11164 inc/acf-blocks.php:11459
+msgid "Break to new line"
+msgstr "הצג רכיב לבד בשורה"
+
+#: inc/acf-blocks.php:1006 inc/acf-blocks.php:1474 inc/acf-blocks.php:1854
+#: inc/acf-blocks.php:2390 inc/acf-blocks.php:3333 inc/acf-blocks.php:3998
+#: inc/acf-blocks.php:4288 inc/acf-blocks.php:4923 inc/acf-blocks.php:5425
+#: inc/acf-blocks.php:6028 inc/acf-blocks.php:6574 inc/acf-blocks.php:7004
+#: inc/acf-blocks.php:7324 inc/acf-blocks.php:7742 inc/acf-blocks.php:8446
+#: inc/acf-blocks.php:8987 inc/acf-blocks.php:9337 inc/acf-blocks.php:9639
+#: inc/acf-blocks.php:10011 inc/acf-blocks.php:10365 inc/acf-blocks.php:10596
+#: inc/acf-blocks.php:10938 inc/acf-blocks.php:11183 inc/acf-blocks.php:11478
+msgid "Block align"
+msgstr "יישור הרכיב בשורה"
+
+#: inc/acf-blocks.php:1026 inc/acf-blocks.php:1494 inc/acf-blocks.php:1874
+#: inc/acf-blocks.php:2410 inc/acf-blocks.php:3353 inc/acf-blocks.php:4018
+#: inc/acf-blocks.php:4308 inc/acf-blocks.php:4943 inc/acf-blocks.php:5445
+#: inc/acf-blocks.php:6048 inc/acf-blocks.php:6594 inc/acf-blocks.php:7024
+#: inc/acf-blocks.php:7344 inc/acf-blocks.php:7762 inc/acf-blocks.php:8466
+#: inc/acf-blocks.php:9007 inc/acf-blocks.php:9357 inc/acf-blocks.php:9659
+#: inc/acf-blocks.php:10031 inc/acf-blocks.php:10385 inc/acf-blocks.php:10616
+#: inc/acf-blocks.php:10958 inc/acf-blocks.php:11203 inc/acf-blocks.php:11498
+msgid "Right"
+msgstr "ימין"
+
+#: inc/acf-blocks.php:1027 inc/acf-blocks.php:1495 inc/acf-blocks.php:1875
+#: inc/acf-blocks.php:2411 inc/acf-blocks.php:3354 inc/acf-blocks.php:4019
+#: inc/acf-blocks.php:4309 inc/acf-blocks.php:4944 inc/acf-blocks.php:5446
+#: inc/acf-blocks.php:6049 inc/acf-blocks.php:6595 inc/acf-blocks.php:7025
+#: inc/acf-blocks.php:7345 inc/acf-blocks.php:7763 inc/acf-blocks.php:8467
+#: inc/acf-blocks.php:8742 inc/acf-blocks.php:9008 inc/acf-blocks.php:9358
+#: inc/acf-blocks.php:9660 inc/acf-blocks.php:10032 inc/acf-blocks.php:10386
+#: inc/acf-blocks.php:10617 inc/acf-blocks.php:10959 inc/acf-blocks.php:11204
+#: inc/acf-blocks.php:11499
+msgid "Center"
+msgstr "מרכז"
+
+#: inc/acf-blocks.php:1028 inc/acf-blocks.php:1496 inc/acf-blocks.php:1876
+#: inc/acf-blocks.php:2412 inc/acf-blocks.php:3355 inc/acf-blocks.php:4020
+#: inc/acf-blocks.php:4310 inc/acf-blocks.php:4945 inc/acf-blocks.php:5447
+#: inc/acf-blocks.php:6050 inc/acf-blocks.php:6596 inc/acf-blocks.php:7026
+#: inc/acf-blocks.php:7346 inc/acf-blocks.php:7764 inc/acf-blocks.php:8468
+#: inc/acf-blocks.php:9009 inc/acf-blocks.php:9359 inc/acf-blocks.php:9661
+#: inc/acf-blocks.php:10033 inc/acf-blocks.php:10387 inc/acf-blocks.php:10618
+#: inc/acf-blocks.php:10960 inc/acf-blocks.php:11205 inc/acf-blocks.php:11500
+msgid "Left"
+msgstr "שמאל"
+
+#: inc/acf-blocks.php:1039 inc/acf-blocks.php:1507 inc/acf-blocks.php:1887
+#: inc/acf-blocks.php:2423 inc/acf-blocks.php:3366 inc/acf-blocks.php:4031
+#: inc/acf-blocks.php:4321 inc/acf-blocks.php:4956 inc/acf-blocks.php:5458
+#: inc/acf-blocks.php:6061 inc/acf-blocks.php:6607 inc/acf-blocks.php:7037
+#: inc/acf-blocks.php:7357 inc/acf-blocks.php:7775 inc/acf-blocks.php:8479
+#: inc/acf-blocks.php:9020 inc/acf-blocks.php:9370 inc/acf-blocks.php:9672
+#: inc/acf-blocks.php:10044 inc/acf-blocks.php:10398 inc/acf-blocks.php:10629
+#: inc/acf-blocks.php:10971 inc/acf-blocks.php:11216 inc/acf-blocks.php:11511
+#: inc/acf-blocks.php:12108
+msgid "Order On mobile"
+msgstr "סדר הרכיב בתצוגת מובייל"
+
+#: inc/acf-blocks.php:1060 inc/acf-blocks.php:1528 inc/acf-blocks.php:1908
+#: inc/acf-blocks.php:2444 inc/acf-blocks.php:3387 inc/acf-blocks.php:4052
+#: inc/acf-blocks.php:4342 inc/acf-blocks.php:4977 inc/acf-blocks.php:5479
+#: inc/acf-blocks.php:6082 inc/acf-blocks.php:6628 inc/acf-blocks.php:7058
+#: inc/acf-blocks.php:7378 inc/acf-blocks.php:7796 inc/acf-blocks.php:8500
+#: inc/acf-blocks.php:9041 inc/acf-blocks.php:9391 inc/acf-blocks.php:9693
+#: inc/acf-blocks.php:10065 inc/acf-blocks.php:10419 inc/acf-blocks.php:10650
+#: inc/acf-blocks.php:10992 inc/acf-blocks.php:11237 inc/acf-blocks.php:11532
+#: inc/acf-blocks.php:12129 inc/acf-options.php:1080 inc/acf-options.php:1243
+msgid "Mobile layout"
+msgstr "פריסה במובייל"
+
+#: inc/acf-blocks.php:1072 inc/acf-blocks.php:1540 inc/acf-blocks.php:1920
+#: inc/acf-blocks.php:2456 inc/acf-blocks.php:3399 inc/acf-blocks.php:4064
+#: inc/acf-blocks.php:4354 inc/acf-blocks.php:4989 inc/acf-blocks.php:5491
+#: inc/acf-blocks.php:6094 inc/acf-blocks.php:6640 inc/acf-blocks.php:7070
+#: inc/acf-blocks.php:7390 inc/acf-blocks.php:7808 inc/acf-blocks.php:8512
+#: inc/acf-blocks.php:9053 inc/acf-blocks.php:9403 inc/acf-blocks.php:9705
+#: inc/acf-blocks.php:10077 inc/acf-blocks.php:10431 inc/acf-blocks.php:10662
+#: inc/acf-blocks.php:11004 inc/acf-blocks.php:11249 inc/acf-blocks.php:11544
+#: inc/acf-blocks.php:12141 inc/acf-options.php:1092 inc/acf-options.php:1255
+msgid "100%"
+msgstr "100%"
+
+#: inc/acf-blocks.php:1073 inc/acf-blocks.php:1541 inc/acf-blocks.php:1921
+#: inc/acf-blocks.php:2457 inc/acf-blocks.php:3400 inc/acf-blocks.php:4065
+#: inc/acf-blocks.php:4355 inc/acf-blocks.php:4990 inc/acf-blocks.php:5492
+#: inc/acf-blocks.php:6095 inc/acf-blocks.php:6641 inc/acf-blocks.php:7071
+#: inc/acf-blocks.php:7391 inc/acf-blocks.php:7809 inc/acf-blocks.php:8513
+#: inc/acf-blocks.php:9054 inc/acf-blocks.php:9404 inc/acf-blocks.php:9706
+#: inc/acf-blocks.php:10078 inc/acf-blocks.php:10432 inc/acf-blocks.php:10663
+#: inc/acf-blocks.php:11005 inc/acf-blocks.php:11250 inc/acf-blocks.php:11545
+#: inc/acf-blocks.php:12142 inc/acf-options.php:1093 inc/acf-options.php:1256
+msgid "50%"
+msgstr "50%"
+
+#: inc/acf-blocks.php:1084 inc/acf-blocks.php:1552 inc/acf-blocks.php:1932
+#: inc/acf-blocks.php:2468 inc/acf-blocks.php:3411 inc/acf-blocks.php:4076
+#: inc/acf-blocks.php:4366 inc/acf-blocks.php:5001 inc/acf-blocks.php:5503
+#: inc/acf-blocks.php:6106 inc/acf-blocks.php:6652 inc/acf-blocks.php:7082
+#: inc/acf-blocks.php:7402 inc/acf-blocks.php:7820 inc/acf-blocks.php:8524
+#: inc/acf-blocks.php:9065 inc/acf-blocks.php:9415 inc/acf-blocks.php:9717
+#: inc/acf-blocks.php:10089 inc/acf-blocks.php:10443 inc/acf-blocks.php:10674
+#: inc/acf-blocks.php:11016 inc/acf-blocks.php:11261 inc/acf-blocks.php:11556
+#: inc/acf-blocks.php:12153 inc/acf-options.php:1104 inc/acf-options.php:1267
+msgid "Hide On Mobile"
+msgstr "הסתר במובייל"
+
+#: inc/acf-blocks.php:1103 inc/acf-blocks.php:1571 inc/acf-blocks.php:1951
+#: inc/acf-blocks.php:2487 inc/acf-blocks.php:3430 inc/acf-blocks.php:4095
+#: inc/acf-blocks.php:4385 inc/acf-blocks.php:5020 inc/acf-blocks.php:5522
+#: inc/acf-blocks.php:6125 inc/acf-blocks.php:6671 inc/acf-blocks.php:7101
+#: inc/acf-blocks.php:7421 inc/acf-blocks.php:7839 inc/acf-blocks.php:8543
+#: inc/acf-blocks.php:9084 inc/acf-blocks.php:9434 inc/acf-blocks.php:9736
+#: inc/acf-blocks.php:10108 inc/acf-blocks.php:10462 inc/acf-blocks.php:10693
+#: inc/acf-blocks.php:11035 inc/acf-blocks.php:11280 inc/acf-blocks.php:11575
+#: inc/acf-blocks.php:12172
+msgid "Animation"
+msgstr "אנימציה"
+
+#: inc/acf-blocks.php:1133
+msgid "Title style"
+msgstr "סגנון הכותרת"
+
+#: inc/acf-blocks.php:1145
+msgid "clean"
+msgstr "נקי"
+
+#: inc/acf-blocks.php:1146
+msgid "clean-underline"
+msgstr "נקי - קו תחתון"
+
+#: inc/acf-blocks.php:1147
+msgid "clean-sideline"
+msgstr "נקי - קו צידי"
+
+#: inc/acf-blocks.php:1148
+msgid "box"
+msgstr "קוביית רקע"
+
+#: inc/acf-blocks.php:1149
+msgid "split"
+msgstr "קוביית רקע - מפוצל"
+
+#: inc/acf-blocks.php:1160
+msgid "Title type heading"
+msgstr "סוג הכותרת"
+
+#: inc/acf-blocks.php:1185 inc/acf-blocks.php:2945
+msgid "Font size"
+msgstr "גודל פונט"
+
+#: inc/acf-blocks.php:1205
+msgid "Title Alignment"
+msgstr "יישור הכותרת"
+
+#: inc/acf-blocks.php:1246 inc/acf-blocks.php:1736 inc/acf-blocks.php:2227
+#: inc/acf-blocks.php:2584 inc/acf-blocks.php:2609 inc/acf-blocks.php:2685
+#: inc/acf-blocks.php:2932 inc/acf-blocks.php:3592 inc/acf-blocks.php:6246
+#: inc/acf-blocks.php:6751 inc/acf-blocks.php:9160 inc/acf-masthead.php:769
+#: inc/acf-masthead.php:1745
+msgid "center"
+msgstr "מרכז"
+
+#: inc/acf-blocks.php:1247 inc/acf-blocks.php:2228 inc/acf-blocks.php:2585
+#: inc/acf-blocks.php:2610 inc/acf-blocks.php:2686 inc/acf-blocks.php:3593
+#: inc/acf-blocks.php:3659 inc/acf-blocks.php:6753 inc/acf-blocks.php:9161
+msgid "right"
+msgstr "ימין"
+
+#: inc/acf-blocks.php:1248 inc/acf-blocks.php:2229 inc/acf-blocks.php:2586
+#: inc/acf-blocks.php:2611 inc/acf-blocks.php:2687 inc/acf-blocks.php:3594
+#: inc/acf-blocks.php:3660 inc/acf-blocks.php:6752 inc/acf-blocks.php:9162
+msgid "left"
+msgstr "שמאל"
+
+#: inc/acf-blocks.php:1259 inc/acf-blocks.php:2150 inc/acf-blocks.php:2557
+#: inc/acf-blocks.php:4677 inc/acf-blocks.php:5069 inc/acf-blocks.php:6259
+#: inc/acf-blocks.php:8286 inc/acf-blocks.php:8755 inc/acf-blocks.php:9133
+#: inc/acf-options.php:1163 inc/acf-options.php:1326
+msgid "Title color"
+msgstr "צבע הכותרת"
+
+#: inc/acf-blocks.php:1274
+msgid "Title Background color"
+msgstr "צבע רקע לכותרת"
+
+#: inc/acf-blocks.php:1304
+msgid "Title color - second part"
+msgstr "צבע לחלק השני בכותרת"
+
+#: inc/acf-blocks.php:1327
+msgid "Title Background color - second part"
+msgstr "צבע רקע לחלק השני בכותרת"
+
+#: inc/acf-blocks.php:1350
+msgid "The title (first part)"
+msgstr "כותרת - חלק ראשון"
+
+#: inc/acf-blocks.php:1369
+msgid "The title (second part)"
+msgstr "כותרת - חלק שני"
+
+#: inc/acf-blocks.php:1388 inc/acf-blocks.php:7470
+msgid "Intro"
+msgstr "מבוא/תקציר"
+
+#: inc/acf-blocks.php:1412
+msgid "Content Divider"
+msgstr "אזור מפריד"
+
+#: inc/acf-blocks.php:1601
+msgid "Divider line thick"
+msgstr "עובי קו הפרדה"
+
+#: inc/acf-blocks.php:1630
+msgid "Divider line width"
+msgstr "רוחב קו הפרדה"
+
+#: inc/acf-blocks.php:1659
+msgid "Divider line color"
+msgstr "צבע קו הפרדה"
+
+#: inc/acf-blocks.php:1682
+msgid "Vertical align"
+msgstr "יישור אנכי"
+
+#: inc/acf-blocks.php:1702 inc/acf-blocks.php:2899 inc/acf-masthead.php:806
+#: inc/acf-masthead.php:1782
+msgid "top"
+msgstr "למעלה"
+
+#: inc/acf-blocks.php:1703 inc/acf-blocks.php:2900 inc/acf-masthead.php:807
+#: inc/acf-masthead.php:1783
+msgid "middle"
+msgstr "מרכז"
+
+#: inc/acf-blocks.php:1704 inc/acf-blocks.php:2901 inc/acf-masthead.php:808
+#: inc/acf-masthead.php:1784
+msgid "bottom"
+msgstr "תחתון"
+
+#: inc/acf-blocks.php:1715
+msgid "Horizontal align"
+msgstr "יישור אופקי"
+
+#: inc/acf-blocks.php:1735 inc/acf-blocks.php:6247 inc/acf-masthead.php:768
+#: inc/acf-masthead.php:1744
+msgid "start"
+msgstr "התחלה"
+
+#: inc/acf-blocks.php:1737 inc/acf-blocks.php:2934 inc/acf-blocks.php:6248
+#: inc/acf-masthead.php:770 inc/acf-masthead.php:1746
+msgid "end"
+msgstr "סוף"
+
+#: inc/acf-blocks.php:1748
+msgid "Divider Height"
+msgstr "גובה אזור הפרדה"
+
+#: inc/acf-blocks.php:1768
+msgid "Show Divider"
+msgstr "הצג הפרדה"
+
+#: inc/acf-blocks.php:1792
+msgid "Full content editor"
+msgstr "עורך תוכן מלא"
+
+#: inc/acf-blocks.php:2032
+msgid "Background round corners"
+msgstr "פינות מעוגלות לרקע"
+
+#: inc/acf-blocks.php:2051
+msgid "Content align middle"
+msgstr "יישור תוכן למרכז"
+
+#: inc/acf-blocks.php:2070 inc/acf-blocks.php:2517 inc/acf-blocks.php:3717
+#: inc/acf-blocks.php:4636 inc/acf-blocks.php:5050 inc/acf-blocks.php:6701
+#: inc/acf-blocks.php:7451 inc/acf-blocks.php:8267 inc/acf-blocks.php:9114
+#: inc/acf-blocks.php:9464 inc/acf-blocks.php:9766 inc/acf-blocks.php:10138
+#: inc/acf-blocks.php:10258 inc/acf-blocks.php:10788 inc/acf-blocks.php:11657
+#: inc/acf-options.php:1123 inc/acf-options.php:1286 inc/acf-options.php:1512
+#: inc/acf-options.php:2044 inc/acf-options.php:2224
+msgid "Title"
+msgstr "כותרת"
+
+#: inc/acf-blocks.php:2089 inc/acf-blocks.php:2536 inc/acf-blocks.php:6213
+#: inc/acf-options.php:1142 inc/acf-options.php:1305
+msgid "Title - font size"
+msgstr "כותרת - גודל פונט"
+
+#: inc/acf-blocks.php:2110 inc/acf-blocks.php:3736 inc/acf-blocks.php:9483
+#: inc/acf-blocks.php:9785 inc/acf-blocks.php:11684 inc/acf-options.php:1539
+#: inc/acf-options.php:2243
+msgid "Subtitle"
+msgstr "כותרת משנה"
+
+#: inc/acf-blocks.php:2129
+msgid "Subtitle - font size"
+msgstr "כותרת משנה - גודל פונט"
+
+#: inc/acf-blocks.php:2165
+msgid "Subtitle color"
+msgstr "צבע כותרת משנה"
+
+#: inc/acf-blocks.php:2180
+msgid "Content text color"
+msgstr "צבע פונט התוכן"
+
+#: inc/acf-blocks.php:2195
+msgid "Content block width"
+msgstr "רוחב אלמנט תוכן"
+
+#: inc/acf-blocks.php:2215 inc/acf-blocks.php:2572 inc/acf-blocks.php:2597
+#: inc/acf-blocks.php:6234 inc/acf-blocks.php:7489 inc/acf-blocks.php:8722
+msgid "Title align"
+msgstr "יישור הכותרת"
+
+#: inc/acf-blocks.php:2240 inc/acf-blocks.php:10807 inc/acf-options.php:1178
+msgid "Content"
+msgstr "תוכן"
+
+#: inc/acf-blocks.php:2259
+msgid "Bottom Button"
+msgstr "כפתור תחתון"
+
+#: inc/acf-blocks.php:2278
+msgid "Bottom Button link"
+msgstr "לינק לכפתור תחתון"
+
+#: inc/acf-blocks.php:2279 inc/acf-blocks.php:8248 inc/acf-options.php:445
+#: inc/acf-options.php:890 inc/acf-options.php:987 inc/acf-options.php:1712
+#: inc/acf-options.php:2281
+msgid "Link"
+msgstr "קישור"
+
+#: inc/acf-blocks.php:2298
+msgid "Bottom Button Color"
+msgstr "צבע כפתור תחתון"
+
+#: inc/acf-blocks.php:2310 inc/acf-blocks.php:3919 inc/acf-blocks.php:9541
+#: inc/acf-options.php:522
+msgid "Dark"
+msgstr "כהה"
+
+#: inc/acf-blocks.php:2311 inc/acf-blocks.php:3920 inc/acf-blocks.php:9542
+#: inc/acf-options.php:523
+msgid "Light"
+msgstr "בהיר"
+
+#: inc/acf-blocks.php:2312
+msgid "Full bottom"
+msgstr "תחתון מלא"
+
+#: inc/acf-blocks.php:2328
+msgid "Image Block"
+msgstr "רכיב תמונה"
+
+#: inc/acf-blocks.php:2622
+msgid "Title location"
+msgstr "מיקום הכותרת"
+
+#: inc/acf-blocks.php:2634
+msgid "Title top"
+msgstr "כותרת מעל"
+
+#: inc/acf-blocks.php:2635
+msgid "Title bottom"
+msgstr "כותרת מתחת"
+
+#: inc/acf-blocks.php:2646 inc/acf-blocks.php:3843 inc/acf-blocks.php:5178
+#: inc/acf-blocks.php:6764 inc/acf-blocks.php:7155
+msgid "Image size"
+msgstr "גודל התמונה"
+
+#: inc/acf-blocks.php:2658 inc/acf-blocks.php:3855 inc/acf-blocks.php:5191
+#: inc/acf-blocks.php:6776 inc/acf-blocks.php:7169 inc/acf-blocks.php:8097
+msgid "Cut 620x425"
+msgstr "חיתוך 620x425"
+
+#: inc/acf-blocks.php:2659 inc/acf-blocks.php:3856 inc/acf-blocks.php:6777
+#: inc/acf-blocks.php:7170 inc/acf-blocks.php:8098
+msgid "Cut 500px"
+msgstr "חיתוך 500px"
+
+#: inc/acf-blocks.php:2660 inc/acf-blocks.php:3857 inc/acf-blocks.php:6778
+#: inc/acf-blocks.php:7171 inc/acf-blocks.php:8099
+msgid "Cut 300px"
+msgstr "חיתוך 300px"
+
+#: inc/acf-blocks.php:2661 inc/acf-blocks.php:8100
+msgid "Cut Portrait"
+msgstr "חיתוך פורטרט"
+
+#: inc/acf-blocks.php:2662 inc/acf-blocks.php:8101
+msgid "No cut = full size"
+msgstr "גודל מלא"
+
+#: inc/acf-blocks.php:2673
+msgid "Image align"
+msgstr "יישור התמונה"
+
+#: inc/acf-blocks.php:2698
+msgid "Image Style"
+msgstr "סגנון התמונה"
+
+#: inc/acf-blocks.php:2710
+msgid "Add Drop shadow"
+msgstr "הוספת הצללה"
+
+#: inc/acf-blocks.php:2711
+msgid "Add Content on image"
+msgstr "הוספת תוכן על התמונה"
+
+#: inc/acf-blocks.php:2712
+msgid "Show Content on hover only"
+msgstr "הצגת התוכן ב\"הובר\" בלבד"
+
+#: inc/acf-blocks.php:2713
+msgid "Overlay on image"
+msgstr "מיסוך על התמונה"
+
+#: inc/acf-blocks.php:2714
+msgid "Inside border"
+msgstr "מסגרת פנימית"
+
+#: inc/acf-blocks.php:2715
+msgid "Round corners"
+msgstr "פינות מעוגלות"
+
+#: inc/acf-blocks.php:2716
+msgid "Add logo on image"
+msgstr "הוספות לוגו/תמונה על גבי התמונה"
+
+#: inc/acf-blocks.php:2717
+msgid "No stretch - Original proportions"
+msgstr "ללא מתיחה - פרופורציות מקוריות"
+
+#: inc/acf-blocks.php:2729
+msgid "Image fit in block"
+msgstr "מילוי שטח התמונה"
+
+#: inc/acf-blocks.php:2753
+msgid "Logo on image"
+msgstr "לוגו על התמונה"
+
+#: inc/acf-blocks.php:2785
+msgid "Logo position on image"
+msgstr "מיקום הלוגו על התמונה"
+
+#: inc/acf-blocks.php:2824
+msgid "Container height"
+msgstr "גובה הקונטיינר"
+
+#: inc/acf-blocks.php:2852
+msgid "Text content"
+msgstr "תוכן על התמונה"
+
+#: inc/acf-blocks.php:2879
+msgid "Text Ver align"
+msgstr "יישור אנכי של הטקסט"
+
+#: inc/acf-blocks.php:2912
+msgid "Text Hor align"
+msgstr "יישור אופקי של הטקסט"
+
+#: inc/acf-blocks.php:2933
+msgid "strat"
+msgstr "התחלה"
+
+#: inc/acf-blocks.php:2974
+msgid "Font color"
+msgstr "צבע הפונט"
+
+#: inc/acf-blocks.php:2997
+msgid "Links"
+msgstr "קישורים"
+
+#: inc/acf-blocks.php:3021
+msgid "First button"
+msgstr "כפתור ראשון"
+
+#: inc/acf-blocks.php:3053
+msgid "First button link"
+msgstr "לינק לכפתור הראשון"
+
+#: inc/acf-blocks.php:3085
+msgid "Second button"
+msgstr "כפתור שני"
+
+#: inc/acf-blocks.php:3117
+msgid "Second button link"
+msgstr "לינק לכפתור השני"
+
+#: inc/acf-blocks.php:3149
+msgid "Link for all the image"
+msgstr "לינק לכל התמונה"
+
+#: inc/acf-blocks.php:3176 inc/acf-blocks.php:6893
+msgid "Open link in fancy box"
+msgstr "פתיחת לינק לפופאפ"
+
+#: inc/acf-blocks.php:3203
+msgid "Choose the image"
+msgstr "בחירת התמונה"
+
+#: inc/acf-blocks.php:3227
+msgid "Top margin"
+msgstr "ריווח עליון"
+
+#: inc/acf-blocks.php:3246
+msgid "Bottom margin"
+msgstr "ריווח תחתון"
+
+#: inc/acf-blocks.php:3271
+msgid "Image with content"
+msgstr "תמונה עם תוכן מלא"
+
+#: inc/acf-blocks.php:3460 inc/acf-blocks.php:8131
+msgid "Type"
+msgstr "סוג"
+
+#: inc/acf-blocks.php:3472
+msgid "Image ontop"
+msgstr "תמונה מעל"
+
+#: inc/acf-blocks.php:3473
+msgid "Title ontop"
+msgstr "כותרת מעל"
+
+#: inc/acf-blocks.php:3474
+msgid "Side by side"
+msgstr "תמונה לצד תוכן"
+
+#: inc/acf-blocks.php:3485 inc/acf-blocks.php:4496 inc/acf-blocks.php:9215
+#: inc/acf-blocks.php:10157
+msgid "Style"
+msgstr "סגנון"
+
+#: inc/acf-blocks.php:3497 inc/acf-blocks.php:4530
+msgid "Style1"
+msgstr "סגנון 1"
+
+#: inc/acf-blocks.php:3498 inc/acf-blocks.php:4531
+msgid "Style2"
+msgstr "סגנון 2"
+
+#: inc/acf-blocks.php:3509
+msgid "Image layout"
+msgstr "פריסת התמונה"
+
+#: inc/acf-blocks.php:3529
+msgid "Cover Layout"
+msgstr "פריסה מלאה"
+
+#: inc/acf-blocks.php:3530
+msgid "Cut by size"
+msgstr "חיתוך למידה"
+
+#: inc/acf-blocks.php:3541
+msgid "Middle logo image"
+msgstr "תמונת לוגו ממורכזת"
+
+#: inc/acf-blocks.php:3580
+msgid "Content align"
+msgstr "יישור התוכן"
+
+#: inc/acf-blocks.php:3605
+msgid "Column layout"
+msgstr "פריסת העמודות"
+
+#: inc/acf-blocks.php:3639
+msgid "Image side"
+msgstr "צד התמונה"
+
+#: inc/acf-blocks.php:3671
+msgid "Inner color bg"
+msgstr "צבע רקע פנימי"
+
+#: inc/acf-blocks.php:3694
+msgid "Content color"
+msgstr "צבע התוכן"
+
+#: inc/acf-blocks.php:3755 inc/acf-blocks.php:5105
+msgid "Title type"
+msgstr "סוג הכותרת"
+
+#: inc/acf-blocks.php:3780 inc/acf-blocks.php:5084 inc/acf-blocks.php:8301
+#: inc/acf-blocks.php:8822 inc/acf-blocks.php:9173
+msgid "Title size"
+msgstr "גודל הכותרת"
+
+#: inc/acf-blocks.php:3800
+msgid "Full content"
+msgstr "תוכן מלא"
+
+#: inc/acf-blocks.php:3819 inc/acf-blocks.php:4612 inc/acf-blocks.php:5334
+#: inc/acf-blocks.php:5797 inc/acf-blocks.php:5834 inc/acf-blocks.php:8143
+#: inc/acf-blocks.php:8155 inc/acf-blocks.php:10826 inc/acf-masthead.php:1412
+#: inc/acf-masthead.php:1424 inc/acf-masthead.php:2238
+#: inc/acf-masthead.php:2250 inc/acf-options.php:2101
+msgid "Image"
+msgstr "תמונה"
+
+#: inc/acf-blocks.php:3858
+msgid "Full size"
+msgstr "גודל מלא"
+
+#: inc/acf-blocks.php:3869
+msgid "Read more text"
+msgstr "טקסט כפתור"
+
+#: inc/acf-blocks.php:3888
+msgid "Button link"
+msgstr "לינק לכפתור"
+
+#: inc/acf-blocks.php:3907 inc/acf-blocks.php:7651 inc/acf-blocks.php:8799
+msgid "Button color"
+msgstr "צבע הכפתור"
+
+#: inc/acf-blocks.php:3936
+msgid "Video block"
+msgstr "רכיב וידאו"
+
+#: inc/acf-blocks.php:4226
+msgid "Manual image link grid"
+msgstr "גריד תמונות עם קישורים ידני"
+
+#: inc/acf-blocks.php:4415
+msgid "Layout type"
+msgstr "סוג הפריסה"
+
+#: inc/acf-blocks.php:4427
+msgid "Flex layout"
+msgstr "פריסת FLEX"
+
+#: inc/acf-blocks.php:4428
+msgid "Grid layout"
+msgstr "פריסת גריד"
+
+#: inc/acf-blocks.php:4429
+msgid "Box layout"
+msgstr "פריסת קוביות"
+
+#: inc/acf-blocks.php:4430
+msgid "Video layout"
+msgstr "פריסת וידאו"
+
+#: inc/acf-blocks.php:4441
+msgid "Boxes in row"
+msgstr "קוביות בשורה"
+
+#: inc/acf-blocks.php:4477 inc/acf-blocks.php:6325
+msgid "B&W effect"
+msgstr "אפקט שחור לבן"
+
+#: inc/acf-blocks.php:4542
+msgid "Text position on image"
+msgstr "מיקום הטקסט על התמונה"
+
+#: inc/acf-blocks.php:4576
+msgid "Center bottom"
+msgstr "מרכז תחתון"
+
+#: inc/acf-blocks.php:4577
+msgid "Center top"
+msgstr "מרכז עליון"
+
+#: inc/acf-blocks.php:4578
+msgid "Center middle"
+msgstr "מרכז אמצע"
+
+#: inc/acf-blocks.php:4579
+msgid "Start bottom"
+msgstr "התחלה תחתון"
+
+#: inc/acf-blocks.php:4580
+msgid "Start top"
+msgstr "התחלה עליון"
+
+#: inc/acf-blocks.php:4581
+msgid "Start middle"
+msgstr "התחלה אמצע"
+
+#: inc/acf-blocks.php:4582
+msgid "Text bellow img"
+msgstr "טקסט מתחת לתמונה"
+
+#: inc/acf-blocks.php:4593 inc/acf-blocks.php:7588
+msgid "Choose images"
+msgstr "בחירת תמונות"
+
+#: inc/acf-blocks.php:4714
+msgid "Excerpt"
+msgstr "תקציר"
+
+#: inc/acf-blocks.php:4755 inc/acf-blocks.php:5583 inc/acf-blocks.php:5596
+msgid "Page link"
+msgstr "קישור לעמוד"
+
+#: inc/acf-blocks.php:4799
+msgid "Video Youtube link"
+msgstr "קישור ליוטיוב"
+
+#: inc/acf-blocks.php:4826
+msgid "Video Youtube title"
+msgstr "כותרת לסרטון"
+
+#: inc/acf-blocks.php:4861
+msgid "Project Box"
+msgstr "קובית פרוייקט"
+
+#: inc/acf-blocks.php:5130 inc/acf-blocks.php:6180
+msgid "Title position"
+msgstr "מיקום הכותרת"
+
+#: inc/acf-blocks.php:5142
+msgid "Above the Image"
+msgstr "מעל התמונה"
+
+#: inc/acf-blocks.php:5143
+msgid "Below the Image"
+msgstr "מתחת לתמונה"
+
+#: inc/acf-blocks.php:5154
+msgid "Title side"
+msgstr "צד הכותרת"
+
+#: inc/acf-blocks.php:5192
+msgid "Cut 800x420"
+msgstr "חיתוך 800x420"
+
+#: inc/acf-blocks.php:5203
+msgid "Pre title"
+msgstr "טקסט מקדים לכותרת"
+
+#: inc/acf-blocks.php:5222
+msgid "Pre title color"
+msgstr "צבע טקסט מקדים"
+
+#: inc/acf-blocks.php:5237
+msgid "Pre title size"
+msgstr "גודל טקסט מקדים"
+
+#: inc/acf-blocks.php:5258
+msgid "First button - text"
+msgstr "כפתור ראשון - טקסט"
+
+#: inc/acf-blocks.php:5277
+msgid "Second button - text"
+msgstr "כפתור שני - טקסט"
+
+#: inc/acf-blocks.php:5296
+msgid "First button - link"
+msgstr "כפתור ראשון - לינק"
+
+#: inc/acf-blocks.php:5315
+msgid "Second button - link"
+msgstr "כפתור שני - לינק"
+
+#: inc/acf-blocks.php:5363 inc/acf-options.php:2262
+msgid "Button"
+msgstr "כפתור"
+
+#: inc/acf-blocks.php:5552
+msgid "Text on button"
+msgstr "טקסט על הכפתור"
+
+#: inc/acf-blocks.php:5571
+msgid "Link type"
+msgstr "סוג הקישור"
+
+#: inc/acf-blocks.php:5584 inc/acf-blocks.php:5623
+msgid "Free link"
+msgstr "קישור חופשי"
+
+#: inc/acf-blocks.php:5585
+msgid "Form in popup"
+msgstr "טופס בפופאפ"
+
+#: inc/acf-blocks.php:5650 inc/acf-blocks.php:9882
+msgid "Form link"
+msgstr "קישור הטופס"
+
+#: inc/acf-blocks.php:5680
+msgid "Button style"
+msgstr "סגנון הכפתור"
+
+#: inc/acf-blocks.php:5692
+msgid "Normal Button"
+msgstr "כפתור רגיל"
+
+#: inc/acf-blocks.php:5693
+msgid "Round Button"
+msgstr "כתפור מעוגל"
+
+#: inc/acf-blocks.php:5694
+msgid "Big Button"
+msgstr "כפתור גדול"
+
+#: inc/acf-blocks.php:5705
+msgid "Text Color"
+msgstr "צבע הפונט"
+
+#: inc/acf-blocks.php:5720
+msgid "BackGround color"
+msgstr "צבע הרקע"
+
+#: inc/acf-blocks.php:5735
+msgid "Button hor align"
+msgstr "יישור אופקי של הכפתור"
+
+#: inc/acf-blocks.php:5760
+msgid "Button ver align"
+msgstr "יישור אנכי של הכפתור"
+
+#: inc/acf-blocks.php:5785
+msgid "Button icon type"
+msgstr "סוג האייקון בכפתור"
+
+#: inc/acf-blocks.php:5798 inc/acf-blocks.php:8144
+msgid "Icon font"
+msgstr "פונט אייקון"
+
+#: inc/acf-blocks.php:5799
+msgid "Icon free html"
+msgstr "HTML חופשי"
+
+#: inc/acf-blocks.php:5810
+msgid "Button icon side"
+msgstr "מיקום האייקון בכפתור"
+
+#: inc/acf-blocks.php:5822
+msgid "Icon left"
+msgstr "אייקון משמאל"
+
+#: inc/acf-blocks.php:5823
+msgid "Icon right"
+msgstr "אייקון מימין"
+
+#: inc/acf-blocks.php:5866 inc/acf-blocks.php:8187 inc/acf-options.php:420
+#: inc/acf-options.php:841 inc/acf-options.php:938 inc/acf-options.php:1682
+msgid "Icon"
+msgstr "אייקון"
+
+#: inc/acf-blocks.php:5904 inc/acf-blocks.php:8225
+msgid "Icon color"
+msgstr "צבע האייקון"
+
+#: inc/acf-blocks.php:5934
+msgid "Free HTML"
+msgstr "HTML חופשי"
+
+#: inc/acf-blocks.php:5966
+msgid "Page/Article Grid"
+msgstr "גריד עמודים"
+
+#: inc/acf-blocks.php:6155
+msgid "Grid style"
+msgstr "סגנון הגריד"
+
+#: inc/acf-blocks.php:6167 inc/acf-masthead.php:626 inc/acf-masthead.php:1609
+msgid "style1"
+msgstr "עיצוב 1"
+
+#: inc/acf-blocks.php:6168 inc/acf-masthead.php:627 inc/acf-masthead.php:1610
+msgid "style2"
+msgstr "עיצוב 2"
+
+#: inc/acf-blocks.php:6169 inc/acf-masthead.php:628 inc/acf-masthead.php:1611
+msgid "style3"
+msgstr "עיצוב 3"
+
+#: inc/acf-blocks.php:6200
+msgid "Top"
+msgstr "למעלה"
+
+#: inc/acf-blocks.php:6201
+msgid "Bottom"
+msgstr "למטה"
+
+#: inc/acf-blocks.php:6202
+msgid "Inside"
+msgstr "בפנים"
+
+#: inc/acf-blocks.php:6289
+msgid "Pages per row"
+msgstr "מספר עמודים בשורה"
+
+#: inc/acf-blocks.php:6292
+msgid "between 1-5"
+msgstr ""
+
+#: inc/acf-blocks.php:6344 inc/acf-blocks.php:8621
+msgid "Featured image"
+msgstr "תמונה מקדימה ראשית"
+
+#: inc/acf-blocks.php:6356 inc/acf-blocks.php:8648
+msgid "Page main feature image"
+msgstr "תמונה מקדימה ראשית של העמוד"
+
+#: inc/acf-blocks.php:6357 inc/acf-blocks.php:8649
+msgid "Second featured image on hover"
+msgstr "תמונה משנית מקדימה ב\"הובר\""
+
+#: inc/acf-blocks.php:6368
+msgid "Grid pagination"
+msgstr "עימוד הגריד"
+
+#: inc/acf-blocks.php:6380
+msgid "No pagination"
+msgstr "ללא עימוד"
+
+#: inc/acf-blocks.php:6381
+msgid "Paginate by pages"
+msgstr "עימוד בעמודים שונים"
+
+#: inc/acf-blocks.php:6382
+msgid "Paginate by scroll more"
+msgstr "עימוד בגלילה"
+
+#: inc/acf-blocks.php:6393
+msgid "Pages per display"
+msgstr "עמודים בתצוגה"
+
+#: inc/acf-blocks.php:6429
+msgid "Show excerpt"
+msgstr "הצגת תקציר"
+
+#: inc/acf-blocks.php:6448
+msgid "Excerpt length"
+msgstr "אורך התקציר"
+
+#: inc/acf-blocks.php:6477 inc/acf-blocks.php:8881 inc/acf-blocks.php:11086
+msgid "Choose pages"
+msgstr "בחירת עמודים"
+
+#: inc/acf-blocks.php:6512
+msgid "Image Slider"
+msgstr "סליידר תמונות"
+
+#: inc/acf-blocks.php:6720
+msgid "Sub Title"
+msgstr "כותרת משנה"
+
+#: inc/acf-blocks.php:6739 inc/acf-blocks.php:9148
+msgid "Title Align"
+msgstr "יישור הכותרת"
+
+#: inc/acf-blocks.php:6779 inc/acf-blocks.php:7172
+msgid "full size"
+msgstr "גודל מלא"
+
+#: inc/acf-blocks.php:6790 inc/acf-blocks.php:7183
+msgid "Images on display - desktop"
+msgstr "תמונת לתצוגה בדסקטופ"
+
+#: inc/acf-blocks.php:6793 inc/acf-blocks.php:11313
+msgid "Between 1-6"
+msgstr "בין 1-6"
+
+#: inc/acf-blocks.php:6811 inc/acf-blocks.php:7204
+msgid "Images on display - mobile"
+msgstr "תמונות לתצוגה במובייל"
+
+#: inc/acf-blocks.php:6814 inc/acf-blocks.php:10751 inc/acf-blocks.php:11334
+msgid "Between 1-3"
+msgstr "בין 1-3"
+
+#: inc/acf-blocks.php:6832
+msgid "Show thumbnails"
+msgstr "הצג תמונות ממוזערות"
+
+#: inc/acf-blocks.php:6852
+msgid "No thumbs"
+msgstr "ללא תמונות מוקטנות"
+
+#: inc/acf-blocks.php:6853
+msgid "Slider thumbs"
+msgstr "סליידר עם תמונות מוקטנות"
+
+#: inc/acf-blocks.php:6864
+msgid "Image thums to display"
+msgstr "תמונות מוקטנות לתצוגה"
+
+#: inc/acf-blocks.php:6867
+msgid "Between 2-6"
+msgstr "בין 2-6"
+
+#: inc/acf-blocks.php:6912 inc/acf-blocks.php:7225 inc/acf-options.php:2003
+msgid "Images"
+msgstr "תמונות"
+
+#: inc/acf-blocks.php:6942
+msgid "Client Slider"
+msgstr "סליידר לקוחות (לוגואים)"
+
+#: inc/acf-blocks.php:7131
+msgid "Image Source"
+msgstr "מקור התמונות"
+
+#: inc/acf-blocks.php:7143
+msgid "Global theme settings"
+msgstr "הגדרות תבנית כלליות"
+
+#: inc/acf-blocks.php:7144
+msgid "Unique to page "
+msgstr "ייחודי לעמוד"
+
+#: inc/acf-blocks.php:7167
+msgid "Cut 100px"
+msgstr "חיתוך 100px"
+
+#: inc/acf-blocks.php:7168
+msgid "Resize 150x75"
+msgstr "הקטן ל- 150x75"
+
+#: inc/acf-blocks.php:7186
+msgid "Between 1-8"
+msgstr "בין 1-8"
+
+#: inc/acf-blocks.php:7207
+msgid "Between 1-4"
+msgstr "בין 1-4"
+
+#: inc/acf-blocks.php:7263
+msgid "Gallery grid"
+msgstr "גריד גלרייה"
+
+#: inc/acf-blocks.php:7514
+msgid "Gallery type"
+msgstr "סוג הגלרייה"
+
+#: inc/acf-blocks.php:7526
+msgid "Box grid"
+msgstr "גריד קוביות"
+
+#: inc/acf-blocks.php:7527
+msgid "Masonary"
+msgstr "גריד בנאים"
+
+#: inc/acf-blocks.php:7538
+msgid "Images per row"
+msgstr "תמונות בשורה"
+
+#: inc/acf-blocks.php:7567
+msgid "Open images on display"
+msgstr "תמונות פתוחות בתצוגה"
+
+#: inc/acf-blocks.php:7613
+msgid "Show more button"
+msgstr "טקסט הצג עוד"
+
+#: inc/acf-blocks.php:7624
+msgid "Show more"
+msgstr "הצג עוד"
+
+#: inc/acf-blocks.php:7632
+msgid "Show less button"
+msgstr "טקסט הצג פחות"
+
+#: inc/acf-blocks.php:7643
+msgid "Show less"
+msgstr "הצג פחות"
+
+#: inc/acf-blocks.php:7680
+msgid "Bulletin List"
+msgstr "רשימה מעוצבת"
+
+#: inc/acf-blocks.php:7869
+msgid "Main Title"
+msgstr "כותרת ראשית"
+
+#: inc/acf-blocks.php:7888
+msgid "Main SubTitle"
+msgstr "כותרת משנה ראשית"
+
+#: inc/acf-blocks.php:7907
+msgid "Layout"
+msgstr "פריסה"
+
+#: inc/acf-blocks.php:7931
+msgid "Image/Icon Position"
+msgstr "מיקום התמונה/אייקון"
+
+#: inc/acf-blocks.php:7970
+msgid "Content Align"
+msgstr "יישור התוכן"
+
+#: inc/acf-blocks.php:8010
+msgid "Max items in row"
+msgstr "מקסימום פריטים בשורה"
+
+#: inc/acf-blocks.php:8039
+msgid "Icon Size (if image icon)"
+msgstr "גודל האייקון (במידה ותמונה)"
+
+#: inc/acf-blocks.php:8051
+msgid "Samll"
+msgstr "קטן"
+
+#: inc/acf-blocks.php:8052
+msgid "Medium"
+msgstr "בינוני"
+
+#: inc/acf-blocks.php:8053
+msgid "Big"
+msgstr "גדול"
+
+#: inc/acf-blocks.php:8064
+msgid "Icon Size (if font icon)"
+msgstr "גודל האייקון (במידה ופונט)"
+
+#: inc/acf-blocks.php:8085
+msgid "Image icon cut type"
+msgstr "סוג החיתוך לאייקון תמונה"
+
+#: inc/acf-blocks.php:8112
+msgid "List"
+msgstr "רשימה"
+
+#: inc/acf-blocks.php:8322
+msgid "Sub Text"
+msgstr "טקסט משנה"
+
+#: inc/acf-blocks.php:8341
+msgid "SubText color"
+msgstr "צבע טקסט משנה"
+
+#: inc/acf-blocks.php:8356
+msgid "SubText Size"
+msgstr "גודל טקסט משנה"
+
+#: inc/acf-blocks.php:8384
+msgid "Page/Article Slider"
+msgstr "סליידר עמודים"
+
+#: inc/acf-blocks.php:8573 inc/acf-blocks.php:9194
+msgid "Number of links to display"
+msgstr "מספר קישורים בתצוגה"
+
+#: inc/acf-blocks.php:8576
+msgid "between 2-5"
+msgstr "בין 2-5"
+
+#: inc/acf-blocks.php:8660
+msgid "Choose source"
+msgstr "בחירת המקור"
+
+#: inc/acf-blocks.php:8672
+msgid "Manualy from list"
+msgstr "בחירה ידנית מרשימה"
+
+#: inc/acf-blocks.php:8673
+msgid "Auto latest pages"
+msgstr "עמודים אחרונים (אוטו')"
+
+#: inc/acf-blocks.php:8674
+msgid "Auto latest posts"
+msgstr "פוסטים אחרונים (אוטו')"
+
+#: inc/acf-blocks.php:8675
+msgid "Auto child pages"
+msgstr "עמודי ילד (אוטו')"
+
+#: inc/acf-blocks.php:8686
+msgid "Number of links to call on"
+msgstr "מספר הקישורים לקריאה"
+
+#: inc/acf-blocks.php:8743
+msgid "Start"
+msgstr "התחלה"
+
+#: inc/acf-blocks.php:8744
+msgid "End"
+msgstr "סוף"
+
+#: inc/acf-blocks.php:8843
+msgid "Icon under title"
+msgstr "אייקון מתחת לתמונה"
+
+#: inc/acf-blocks.php:8925
+msgid "Product Slider"
+msgstr "סליידר מוצרים"
+
+#: inc/acf-blocks.php:9197
+msgid "Between 2-5"
+msgstr "בין 2-5"
+
+#: inc/acf-blocks.php:9227
+msgid "Hide Price"
+msgstr "הסתר מחיר"
+
+#: inc/acf-blocks.php:9228
+msgid "Hide Buttons"
+msgstr "הסתר כפתורים"
+
+#: inc/acf-blocks.php:9229
+msgid "Hide Intro"
+msgstr "הסתר תקציר"
+
+#: inc/acf-blocks.php:9241
+msgid "Choose Products"
+msgstr "בחירת מוצרים"
+
+#: inc/acf-blocks.php:9275
+msgid "Full contact form"
+msgstr "טופס מלא"
+
+#: inc/acf-blocks.php:9502 inc/acf-options.php:1477
+msgid "Choose Form"
+msgstr "בחירת טופס"
+
+#: inc/acf-blocks.php:9529
+msgid "Form color"
+msgstr "צבע טופס"
+
+#: inc/acf-blocks.php:9553
+msgid "Hide form title"
+msgstr "הסתר כותרת הטופס"
+
+#: inc/acf-blocks.php:9577
+msgid "Q&A slider"
+msgstr "סליידר שאלות ותשובות"
+
+#: inc/acf-blocks.php:9804
+msgid "Q&A"
+msgstr "שאלות ותשובות"
+
+#: inc/acf-blocks.php:9823
+msgid "Question"
+msgstr "שאלה"
+
+#: inc/acf-blocks.php:9842
+msgid "Answer"
+msgstr "תשובה"
+
+#: inc/acf-blocks.php:9863
+msgid "Button popup"
+msgstr "כפתור פופאפ"
+
+#: inc/acf-blocks.php:9904
+msgid "Button read more"
+msgstr "כפתור קרא עוד"
+
+#: inc/acf-blocks.php:9923
+msgid "Link button read more"
+msgstr "לינק לכפתור קרא עוד"
+
+#: inc/acf-blocks.php:9949
+msgid "Q&A accordion"
+msgstr "אקורדיון Q&A"
+
+#: inc/acf-blocks.php:10169
+msgid "Accordion"
+msgstr "אקורדיון"
+
+#: inc/acf-blocks.php:10170
+msgid "Tabs"
+msgstr "טאבים"
+
+#: inc/acf-blocks.php:10181
+msgid "Icon type"
+msgstr "סוג האייקון"
+
+#: inc/acf-blocks.php:10193
+msgid "QA text"
+msgstr "טקסט שאלות/תשובות"
+
+#: inc/acf-blocks.php:10194
+msgid "Check mark"
+msgstr "סימן וי"
+
+#: inc/acf-blocks.php:10195
+msgid "Plus/Minus"
+msgstr "פלוס/מינוס"
+
+#: inc/acf-blocks.php:10196
+msgid "Question mark"
+msgstr "סימן שאלה"
+
+#: inc/acf-blocks.php:10207
+msgid "Columns"
+msgstr "עמודות"
+
+#: inc/acf-blocks.php:10227
+msgid "One column"
+msgstr "עמודה אחת"
+
+#: inc/acf-blocks.php:10228
+msgid "Two columns"
+msgstr "שתי עמודות"
+
+#: inc/acf-blocks.php:10239
+msgid "Q&A Rows"
+msgstr "שורות שאלות/תשובות"
+
+#: inc/acf-blocks.php:10277 inc/acf-options.php:871 inc/acf-options.php:968
+#: inc/acf-options.php:1731
+msgid "Text"
+msgstr "טקסט"
+
+#: inc/acf-blocks.php:10303
+msgid "Google map"
+msgstr "מפת גוגל"
+
+#: inc/acf-blocks.php:10492
+msgid "Title in map"
+msgstr "כותרת במפה"
+
+#: inc/acf-blocks.php:10511
+msgid "Address"
+msgstr "כתובת על המפה"
+
+#: inc/acf-blocks.php:10534
+msgid "Testimonial slider"
+msgstr "סליידר המלצות"
+
+#: inc/acf-blocks.php:10748
+msgid "Number of boxes to display"
+msgstr "מספר קוביות לתצוגה"
+
+#: inc/acf-blocks.php:10769 inc/acf-options.php:2063
+msgid "Testimonials"
+msgstr "המלצות"
+
+#: inc/acf-blocks.php:10850 inc/acf-options.php:2082
+msgid "Name"
+msgstr "שם"
+
+#: inc/acf-blocks.php:10876
+msgid "Cat Box Grid"
+msgstr "גריד קוביות קטגוריה"
+
+#: inc/acf-blocks.php:11065
+msgid "Boxes per row"
+msgstr "קוביות בשורה"
+
+#: inc/acf-blocks.php:11068
+msgid "between 1-3"
+msgstr "בין 1-3"
+
+#: inc/acf-blocks.php:11121 inc/acf-blocks.php:11352
+msgid "Timeline"
+msgstr "ציר זמן"
+
+#: inc/acf-blocks.php:11310
+msgid "Block on display - desktop"
+msgstr "בלוקים בתצוגה - דסקטופ"
+
+#: inc/acf-blocks.php:11331
+msgid "Block on display - mobile"
+msgstr "בלוקים בתצוגה - מובייל"
+
+#: inc/acf-blocks.php:11371
+msgid "Timeline Date"
+msgstr "תאריך בציר זמן"
+
+#: inc/acf-blocks.php:11390
+msgid "Timeline Content"
+msgstr "תוכן בציר זמן"
+
+#: inc/acf-blocks.php:11416
+msgid "Share buttons"
+msgstr "כפתורים לרשתות חברתיות"
+
+#: inc/acf-blocks.php:12065
+msgid "Parallax Image"
+msgstr "תמונת Parallax"
+
+#: inc/acf-blocks.php:12202
+msgid "Background image"
+msgstr "תמונת רקע"
+
+#: inc/acf-blocks.php:12226
+msgid "Background effect"
+msgstr "אפקט תמונת רקע"
+
+#: inc/acf-blocks.php:12250
+msgid "Block height"
+msgstr "גובה הרכיב"
+
+#: inc/acf-blocks.php:12271
+msgid "Content on image"
+msgstr "תוכן על התמונה"
+
+#: inc/acf-blocks.php:12295
+msgid "Add Row"
+msgstr "הוסף שורה"
+
+#: inc/acf-masthead.php:7
+msgid "MastHead"
+msgstr ""
+
+#: inc/acf-masthead.php:11
+msgid "Main Page Title"
+msgstr "כותרת ראשית בעמוד"
+
+#: inc/acf-masthead.php:14
+msgid "H1 - Replace page name title"
+msgstr "H1 - ניתן להחליף את שם העמוד"
+
+#: inc/acf-masthead.php:30
+msgid "Hide Main Page Title"
+msgstr "הסתר כותרת ראשית בעמוד"
+
+#: inc/acf-masthead.php:33
+msgid "If main page title is hidden you should add an H1 title in page"
+msgstr "במידה וכותרת ראשית בעמוד הוסתרה מומלץ להוסיף כותרת H1 בתוכן העמוד"
+
+#: inc/acf-masthead.php:49
+msgid "Second Featured Image"
+msgstr "תמונת עמוד משנית"
+
+#: inc/acf-masthead.php:52
+msgid "Will be used as hover image effect"
+msgstr "התמונה תשמש לאפקט \"הובר\" באמלנטים ייעודיים"
+
+#: inc/acf-masthead.php:73
+msgid "MastHead on Mobile"
+msgstr "תצוגת MastHead במובייל"
+
+#: inc/acf-masthead.php:85
+msgid "Same as Desktop"
+msgstr "זהה לדסקטופ"
+
+#: inc/acf-masthead.php:86
+msgid "Different on Mobile"
+msgstr "תצוגה שונה במובייל"
+
+#: inc/acf-masthead.php:97
+msgid "Intro Text"
+msgstr "פסקת מבוא"
+
+#: inc/acf-masthead.php:100
+msgid "Position will be set by slider masthead style"
+msgstr "מיקום יוגדר בהתאם לסגנון MastHead"
+
+#: inc/acf-masthead.php:116
+msgid "Short Excerpt"
+msgstr "תקציר"
+
+#: inc/acf-masthead.php:119
+msgid "will be shown on related pages linked here"
+msgstr "יוצג באלמנטים מקשרים בעמודים אחרים"
+
+#: inc/acf-masthead.php:135
+msgid "MastHead Top Slider"
+msgstr "MastHead ראשי עליון"
+
+#: inc/acf-masthead.php:151 inc/acf-masthead.php:1555 inc/acf-masthead.php:1922
+msgid "MastHead Style"
+msgstr "סגנון MastHead"
+
+#: inc/acf-masthead.php:163 inc/acf-masthead.php:1567 inc/acf-masthead.php:1934
+msgid "Image Slider or Youtube video"
+msgstr "סליידר תמונות או סרטון יוטיוב"
+
+#: inc/acf-masthead.php:164 inc/acf-masthead.php:1568 inc/acf-masthead.php:1935
+msgid "Clean Image Short Head"
+msgstr "כותרת נקיה עם רקע נמוך"
+
+#: inc/acf-masthead.php:165 inc/acf-masthead.php:1569 inc/acf-masthead.php:1936
+msgid "No Image BG"
+msgstr "ללא תמונת רקע"
+
+#: inc/acf-masthead.php:166 inc/acf-masthead.php:1570 inc/acf-masthead.php:1937
+msgid "Full Manual slider"
+msgstr "סליידר בהתאמה ידנית"
+
+#: inc/acf-masthead.php:196
+msgid "MastHead background color"
+msgstr "צבע רקע לסליידר"
+
+#: inc/acf-masthead.php:598 inc/acf-masthead.php:1581
+msgid "Slider Effect"
+msgstr "אפקט הסליידר"
+
+#: inc/acf-masthead.php:639 inc/acf-masthead.php:1622
+msgid "Main title color"
+msgstr "צבע כותרת ראשית"
+
+#: inc/acf-masthead.php:665 inc/acf-masthead.php:1648
+msgid "Intro text color"
+msgstr "צבע פסקת מבוא"
+
+#: inc/acf-masthead.php:695 inc/acf-masthead.php:1678
+msgid "Title & Intro location"
+msgstr "מיקום הכותרת ופסקת מבוא"
+
+#: inc/acf-masthead.php:722 inc/acf-masthead.php:1705
+msgid "On top of the Image"
+msgstr "על גבי התמונת רקע"
+
+#: inc/acf-masthead.php:723 inc/acf-masthead.php:1706
+msgid "Under the image"
+msgstr "מתחת לתמונת רקע"
+
+#: inc/acf-masthead.php:734 inc/acf-masthead.php:1717
+msgid "Title & Intro Horizontal position"
+msgstr "כותרת ומבוא - מיקום אופקי"
+
+#: inc/acf-masthead.php:781 inc/acf-masthead.php:1757
+msgid "Titile & Intro Vertical position"
+msgstr "כותרת ומבוא - מיקום אנכי"
+
+#: inc/acf-masthead.php:819 inc/acf-masthead.php:1795
+msgid "MastHead Visual Height"
+msgstr "גובה MastHead במסך"
+
+#: inc/acf-masthead.php:854 inc/acf-masthead.php:1830
+msgid "MastHead Type"
+msgstr "סוג MastHead"
+
+#: inc/acf-masthead.php:877 inc/acf-masthead.php:1853
+msgid "Image / Image slider"
+msgstr "תמונה / סליידר תמונות"
+
+#: inc/acf-masthead.php:878 inc/acf-masthead.php:1854
+msgid "Youtube Video"
+msgstr "סרטון יוטיוב"
+
+#: inc/acf-masthead.php:889 inc/acf-masthead.php:1865
+msgid "Choose Images"
+msgstr "בחירת תמונה/ות"
+
+#: inc/acf-masthead.php:922 inc/acf-masthead.php:1898
+msgid "Youtube full URL"
+msgstr "כתובת URL יוטיוב"
+
+#: inc/acf-masthead.php:947
+msgid "Button Type"
+msgstr "סוג הכפתור"
+
+#: inc/acf-masthead.php:975
+msgid "Text button"
+msgstr "כפתור טקסט"
+
+#: inc/acf-masthead.php:976
+msgid "Image button"
+msgstr "כפתור תמונה"
+
+#: inc/acf-masthead.php:987 inc/acf-masthead.php:2088
+msgid "Button Style"
+msgstr "עיצוב כפתור"
+
+#: inc/acf-masthead.php:1024 inc/acf-masthead.php:2116
+msgid "Style 1"
+msgstr "עיצוב 1"
+
+#: inc/acf-masthead.php:1025 inc/acf-masthead.php:2117
+msgid "Style 2"
+msgstr "עיצוב 2"
+
+#: inc/acf-masthead.php:1026 inc/acf-masthead.php:2118
+msgid "Style 3"
+msgstr "עיצוב 3"
+
+#: inc/acf-masthead.php:1037 inc/acf-masthead.php:2129
+msgid "Button text color"
+msgstr "צבע טקסט בכפתור"
+
+#: inc/acf-masthead.php:1077 inc/acf-masthead.php:2165
+msgid "Button background color"
+msgstr "צבע רקע בכפתור"
+
+#: inc/acf-masthead.php:1119 inc/acf-masthead.php:1948
+msgid "First Button - text"
+msgstr "כפתור ראשון - טקסט"
+
+#: inc/acf-masthead.php:1163
+msgid "First Button - Image"
+msgstr "כפתור ראשון - תמונה"
+
+#: inc/acf-masthead.php:1212 inc/acf-masthead.php:1983
+msgid "First Button - link"
+msgstr "כפתור ראשון - לינק"
+
+#: inc/acf-masthead.php:1247 inc/acf-masthead.php:2018
+msgid "Second Button - text"
+msgstr "כפתור שני - טקסט"
+
+#: inc/acf-masthead.php:1291
+msgid "Second Button - Image"
+msgstr "כפתור שני - תמונה"
+
+#: inc/acf-masthead.php:1340 inc/acf-masthead.php:2053
+msgid "Second Button - link"
+msgstr "כפתור שני - לינק"
+
+#: inc/acf-masthead.php:1375 inc/acf-masthead.php:2201
+msgid "Manual Full Slider"
+msgstr "סליידר בהתאמה ידנית"
+
+#: inc/acf-masthead.php:1400 inc/acf-masthead.php:2226
+msgid "Background Type"
+msgstr "סגנון הרקע"
+
+#: inc/acf-masthead.php:1413 inc/acf-masthead.php:2239
+msgid "Video"
+msgstr "וידאו"
+
+#: inc/acf-masthead.php:1456 inc/acf-masthead.php:2282
+msgid "Video URL"
+msgstr "כתובת סרטון יוטיוב"
+
+#: inc/acf-masthead.php:1480 inc/acf-masthead.php:2306
+msgid "Content on slide"
+msgstr "תוכן על הסלייד"
+
+#: inc/acf-masthead.php:1499 inc/acf-masthead.php:2325
+msgid "Contenet position on slide"
+msgstr "מיקום התוכן על הסלייד"
+
+#: inc/acf-masthead.php:1511 inc/acf-masthead.php:2337
+msgid "Center Middle"
+msgstr "מרכז-אמצע"
+
+#: inc/acf-masthead.php:1512
+msgid "Center Top"
+msgstr "מרכז-עליון"
+
+#: inc/acf-masthead.php:1513
+msgid "Center Bottom"
+msgstr "מרכז-תחתון"
+
+#: inc/acf-masthead.php:1514 inc/acf-masthead.php:2340
+msgid "Top Start"
+msgstr "התחלה-עליון"
+
+#: inc/acf-masthead.php:1515 inc/acf-masthead.php:2341
+msgid "Middle Start"
+msgstr "התחלה-מרכז"
+
+#: inc/acf-masthead.php:1516 inc/acf-masthead.php:2342
+msgid "Bottom Start"
+msgstr "התחלה-תחתון"
+
+#: inc/acf-masthead.php:1517 inc/acf-masthead.php:2343
+msgid "Top End"
+msgstr "סוף-עליון"
+
+#: inc/acf-masthead.php:1518 inc/acf-masthead.php:2344
+msgid "Middle End"
+msgstr "סוף-מרכז"
+
+#: inc/acf-masthead.php:1519 inc/acf-masthead.php:2345
+msgid "Bottom End"
+msgstr "סוף-תחתון"
+
+#: inc/acf-masthead.php:1532
+msgid "Mobile MastHead Top Slider"
+msgstr "תצוגת מובייל - MastHead ראשי עליון"
+
+#: inc/acf-masthead.php:2338
+msgid "Top Middle"
+msgstr "אמצע עליון"
+
+#: inc/acf-masthead.php:2339
+msgid "Bottom Middle"
+msgstr "אמצע תחתון"
+
+#: inc/acf-options.php:7
+msgid "General settings"
+msgstr "הגדרות כלליות"
+
+#: inc/acf-options.php:11
+msgid "Style & Layout"
+msgstr "עיצוב ופריסה"
+
+#: inc/acf-options.php:27
+msgid "Site layout"
+msgstr "פריסת אתר"
+
+#: inc/acf-options.php:39
+msgid "Full width"
+msgstr "רוחב מלא"
+
+#: inc/acf-options.php:40
+msgid "Box site"
+msgstr "פריסה עם שוליים"
+
+#: inc/acf-options.php:51
+msgid "Background color"
+msgstr "צבע רקע"
+
+#: inc/acf-options.php:66
+msgid "Inner background color"
+msgstr "צבע רקע פנימי"
+
+#: inc/acf-options.php:81
+msgid "General info"
+msgstr "מידע כללי"
+
+#: inc/acf-options.php:97
+msgid "Main phone"
+msgstr "טלפון ראשי"
+
+#: inc/acf-options.php:116
+msgid "Main contact - Phone text"
+msgstr "טלפון - טקסט לרכיב התקשרות"
+
+#: inc/acf-options.php:135
+msgid "Phone for Whatsapp"
+msgstr "טלפון וואטסאפ"
+
+#: inc/acf-options.php:154
+msgid "Main contact - Whatsapp text"
+msgstr "וואטסאפ - טקסט לרכיב התקשרות"
+
+#: inc/acf-options.php:173
+msgid "Main email"
+msgstr "אימייל ראשי"
+
+#: inc/acf-options.php:192
+msgid "Main contact - Email text"
+msgstr "אימייל - טקסט לרכיב התקשרות"
+
+#: inc/acf-options.php:211
+msgid "Mobile phone"
+msgstr "טלפון נייד"
+
+#: inc/acf-options.php:230
+msgid "Main contact - Mobile text"
+msgstr "טלפון נייד - טקסט לרכיב התקשרות"
+
+#: inc/acf-options.php:249
+msgid "Messanger"
+msgstr "מסנגר"
+
+#: inc/acf-options.php:268
+msgid "Main contact - Messanger text"
+msgstr "מסנגר - טקסט לרכיב התקשרות"
+
+#: inc/acf-options.php:287
+msgid "Facebook"
+msgstr "פייסבוק"
+
+#: inc/acf-options.php:306
+msgid "Main contact - Facebook text"
+msgstr "פייסבוק - טקסט לרכיב התקשרות"
+
+#: inc/acf-options.php:325
+msgid "Main share - Twitter text"
+msgstr "טוויטר - טקסט לרכיב שיתוף"
+
+#: inc/acf-options.php:344
+msgid "Main share - Facebook text"
+msgstr "פייסבוק - טקסט לרכיב שיתוף"
+
+#: inc/acf-options.php:363
+msgid "Main share - Whatsapp text"
+msgstr "וואטסאפ - טקסט לרכיב שיתוף"
+
+#: inc/acf-options.php:382
+msgid "Main share - email text"
+msgstr "אימייל - טקסט לרכיב שיתוף"
+
+#: inc/acf-options.php:401
+msgid "Social links"
+msgstr "קישורים לרשתות חברתיות"
+
+#: inc/acf-options.php:466
+msgid "Header"
+msgstr "האדר"
+
+#: inc/acf-options.php:482
+msgid "Header style"
+msgstr "עיצוב ההאדר"
+
+#: inc/acf-options.php:494
+msgid "Logo on side of nav"
+msgstr "לוגו לצד התפריט"
+
+#: inc/acf-options.php:495
+msgid "Logo above nav"
+msgstr "לוגו מעל התפריט"
+
+#: inc/acf-options.php:496
+msgid "Logo center nav"
+msgstr "לוגו במרכז התפריט"
+
+#: inc/acf-options.php:497
+msgid "Logo center NO nav"
+msgstr "לוגו במרכז ללא תפריט"
+
+#: inc/acf-options.php:498
+msgid "Logo side NO nav"
+msgstr "לוגו בצד ללא תפריט"
+
+#: inc/acf-options.php:499
+msgid "Logo with Hamburger nav"
+msgstr "לוגו עם תפריט \"המבורגר\""
+
+#: inc/acf-options.php:510
+msgid "Header background color"
+msgstr "צבע רקע להאדר"
+
+#: inc/acf-options.php:524
+msgid "Transparent"
+msgstr "שקוף"
+
+#: inc/acf-options.php:535
+msgid "Logo position (desktop)"
+msgstr "מיקום הלוגו (דסקטופ)"
+
+#: inc/acf-options.php:569
+msgid "Logo right"
+msgstr "לוגו מימין"
+
+#: inc/acf-options.php:570
+msgid "Logo center"
+msgstr "לוגו במרכז"
+
+#: inc/acf-options.php:571
+msgid "Logo left"
+msgstr "לוגו משמאל"
+
+#: inc/acf-options.php:582
+msgid "Menu item layout"
+msgstr "פריסת פריטי תפריט"
+
+#: inc/acf-options.php:609
+msgid "Spread items evenly"
+msgstr "פריסה שווה"
+
+#: inc/acf-options.php:610
+msgid "Align item start"
+msgstr "יישור להתחלה"
+
+#: inc/acf-options.php:611
+msgid "Align item end"
+msgstr "יישור לסוף"
+
+#: inc/acf-options.php:612
+msgid "Align item center"
+msgstr "יישור למרכז"
+
+#: inc/acf-options.php:623
+msgid "Default top slider image"
+msgstr "תמונת סליידר דיפולטית"
+
+#: inc/acf-options.php:647
+msgid "Default slider title size"
+msgstr "גודל דיפולטי של כותרת ראשית"
+
+#: inc/acf-options.php:668
+msgid "Show top panel"
+msgstr "הצג פאנל עליון"
+
+#: inc/acf-options.php:687
+msgid "Top panel bg color"
+msgstr "תבע רקע לפאנל עליון"
+
+#: inc/acf-options.php:710
+msgid "Top panel text color"
+msgstr "צבע פונט לפאנל עליון"
+
+#: inc/acf-options.php:733
+msgid "Show phone in top panel"
+msgstr "הצג טלפון בפאנל העליון"
+
+#: inc/acf-options.php:760
+msgid "Show nav in top panel"
+msgstr "הצג תפריט בפאנל העליון"
+
+#: inc/acf-options.php:787
+msgid "Top panel - right text"
+msgstr "בר עליון - טקסט ימין"
+
+#: inc/acf-options.php:814
+msgid "Top panel - left"
+msgstr "בר עליון - שמאל"
+
+#: inc/acf-options.php:911
+msgid "Top panel - left nav on mobile only"
+msgstr "בר עליון - קישורים משמאל רק במובייל"
+
+#: inc/acf-options.php:1008
+msgid "Footer"
+msgstr "פוטר"
+
+#: inc/acf-options.php:1024
+msgid "Footer Content Elements"
+msgstr "רכיבי תוכן בפוטר"
+
+#: inc/acf-options.php:1202
+msgid "Footer Nav"
+msgstr "תפריט פוטר"
+
+#: inc/acf-options.php:1341
+msgid "Choose nav"
+msgstr "בחירת תפריט"
+
+#: inc/acf-options.php:1353
+msgid "Footer nav 1"
+msgstr "תפריט פוטר 1"
+
+#: inc/acf-options.php:1354
+msgid "Footer nav 2"
+msgstr "תפריט פוטר 2"
+
+#: inc/acf-options.php:1355
+msgid "Footer nav 3"
+msgstr "תפריט פוטר 3"
+
+#: inc/acf-options.php:1371
+msgid "Add new block"
+msgstr "הוסף רכיב חדש"
+
+#: inc/acf-options.php:1377
+msgid "Show mobile fixed bar"
+msgstr "הצג בר תחתון מקובע"
+
+#: inc/acf-options.php:1396
+msgid "Show search button"
+msgstr "הצג כפתור חיפוש"
+
+#: inc/acf-options.php:1423
+msgid "Show Page link button"
+msgstr "הצג כפתור קישור"
+
+#: inc/acf-options.php:1450
+msgid "Show form popup button"
+msgstr "הצג כפתור לטופס פופאפ"
+
+#: inc/acf-options.php:1566
+msgid "Link button Icon"
+msgstr "אייקון לכפתור קישור"
+
+#: inc/acf-options.php:1604
+msgid "Link Btn text"
+msgstr "טקסט לכפתור קישור"
+
+#: inc/acf-options.php:1631
+msgid "Link to"
+msgstr "קישור ל"
+
+#: inc/acf-options.php:1663
+msgid "Footer social links"
+msgstr "קישורים לרשתות חבריות בפוטר"
+
+#: inc/acf-options.php:1752
+msgid "Site popups and Forms"
+msgstr "פופאפים וטפסים"
+
+#: inc/acf-options.php:1768
+msgid "Page default form title"
+msgstr "כותרת דיפולטית לטופס בעמודים"
+
+#: inc/acf-options.php:1787
+msgid "Page default form subtitle"
+msgstr "כותרת משנה דיפולטית לטופס בעמודים"
+
+#: inc/acf-options.php:1806
+msgid "Default form popup"
+msgstr "טופס פופאפ דיפולטי"
+
+#: inc/acf-options.php:1833
+msgid "Footer default form bg"
+msgstr "תמונת רקע דיפולטית לטופס בעמודים"
+
+#: inc/acf-options.php:1857
+msgid "Site elements"
+msgstr "רכיבים באתר"
+
+#: inc/acf-options.php:1873
+msgid "Popup form title"
+msgstr "כותרת מעל הטופס פופאפ"
+
+#: inc/acf-options.php:1892
+msgid "Main category page link"
+msgstr "קישור לעמוד קטגוריה ראשית"
+
+#: inc/acf-options.php:1911
+msgid "Contact module phone"
+msgstr "מספר טלפון ברכיב התקשרות"
+
+#: inc/acf-options.php:1930
+msgid "Contact module button text"
+msgstr "טקסט על הכפתור ברכיב התקשרות"
+
+#: inc/acf-options.php:1949
+msgid "Contact module Whatsapp num"
+msgstr "מספר טלפון ברכיב התקשרות - וואטסאפ"
+
+#: inc/acf-options.php:1968
+msgid "Contact module Whatsapp text"
+msgstr "טקסט על הכפתור ברכיב התקשרות - וואטסאפ"
+
+#: inc/acf-options.php:1987
+msgid "Default client slider"
+msgstr "סליידר לקוחות דיפולטי"
+
+#: inc/acf-options.php:2028
+msgid "Default testimonial slider"
+msgstr "סליידר המלצות דיפולטי"
+
+#: inc/acf-options.php:2125
+msgid "Testimonial"
+msgstr "המלצה"
+
+#: inc/acf-options.php:2146
+msgid "404 page"
+msgstr "עמוד 404"
+
+#: inc/acf-options.php:2162
+msgid "Error brand points title"
+msgstr "כותרת מעל רכיב קישורים מעוצבים"
+
+#: inc/acf-options.php:2181
+msgid "Error brand box"
+msgstr "קישורים מעוצבים"
+
+#: inc/acf-options.php:2200
+msgid "Icon/Image"
+msgstr "אייקון / תמונה"
+
+#. Name of the plugin
+msgid "TKM Functionality"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This contains all your site's core functionality so that it is theme "
+"independent. <strong>It should always be activated</strong>."
+msgstr ""
+
+#. Author of the plugin
+msgid "Tal Katz TKMedia.co.il"
+msgstr ""
