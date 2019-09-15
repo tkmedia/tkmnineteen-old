@@ -761,7 +761,12 @@ header#header-container.fixedHeader {right: 0;left: 0;top: 0;position: fixed;}
 	.normal_menu ul#main-menu li.current-menu-item a span,
 	.normal_menu .navbar-default .navbar-nav>.open>a span,
 	.normal_menu .navbar-default .navbar-nav>.open>a:focus span,
-	.normal_menu .navbar-default .navbar-nav>.open>a:hover span {}
+	.normal_menu .navbar-default .navbar-nav>.open>a:hover span {
+	    -webkit-transform: translateY(-100%);
+	    -moz-transform: translateY(-100%);
+	    transform: translateY(-100%);
+	}
+	.normal_menu ul#main-menu li.current-menu-item a span {color: #0095eb !important;}
 
 }
 @media (max-width: 991px) {
@@ -1419,6 +1424,7 @@ h2 {font-size: 36px;font-weight: normal;}
 h3 {font-size: 30px;font-weight: normal;}
 h2.section_title {font-weight: 600;font-size: 40px;color: #20221d;}
 h3.section_title {font-weight: 600;font-size: 35px;}
+img {width: 100%;}
 a:hover {text-decoration: none;}
 .aligncenter, div.aligncenter {width: auto;}
 .mfp-bg {z-index: 999999999;}
@@ -1590,9 +1596,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .masthead_content_container_wrap {position: relative;padding: 25px;}
 .masthead_content.slider_content_bottom .masthead_content_container {padding: 20px !important;}
 
-#home_masthead.animate .home_masthead_text {-webkit-animation: 3s ease 0s normal forwards 1 fadeInUp;animation: 3s ease 0s normal forwards 1 fadeInUp;animation-delay: 1s;opacity: 0;}
-#home_masthead.animate h1.entry-title.masthead_content_title {-webkit-animation: 3s ease 0s normal forwards 1 fadeInUp;animation: 3s ease 0s normal forwards 1 fadeInUp;animation-delay: .5s;opacity: 0;}
-#home_masthead.animate .custom_icon_btn.masthead_btn {-webkit-animation: 3s ease 0s normal forwards 1 fadeInUp;animation: 3s ease 0s normal forwards 1 fadeInUp;animation-delay: 1s;opacity: 0;}
+#home_masthead .home_masthead_text {-webkit-animation: 3s ease 0s normal forwards 1 fadeInUp;animation: 3s ease 0s normal forwards 1 fadeInUp;animation-delay: 1s;opacity: 0;}
+#home_masthead h1.entry-title.masthead_content_title {-webkit-animation: 3s ease 0s normal forwards 1 fadeInUp;animation: 3s ease 0s normal forwards 1 fadeInUp;animation-delay: .5s;opacity: 0;}
+#home_masthead .custom_icon_btn.masthead_btn {-webkit-animation: 3s ease 0s normal forwards 1 fadeInUp;animation: 3s ease 0s normal forwards 1 fadeInUp;animation-delay: 1s;opacity: 0;}
 .masthead_full_slider .masthead_content > .masthead_content_container {max-width: 800px !important;}
 .masthead_content.slider_content_bottom .masthead_content_container {max-width: 100% !important;}
 .masthead_content.slider_content_bottom .masthead_content_container_wrap {padding: 0;}
