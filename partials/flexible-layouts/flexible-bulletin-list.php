@@ -10,7 +10,7 @@ $bulletin_list_animation = get_sub_field('f_bull_animation');
 $bulletin_list_title = get_sub_field('f_bull_title');
 $bulletin_list_subtitle = get_sub_field('f_bull_subtitle');
 $bulletin_list_width = get_sub_field('f_bull_width');
-$bulletin_list = get_sub_field('flex_bull');
+$bulletin_list = get_sub_field('f_bull');
 $bulletin_layout = get_sub_field('f_bull_layout');
 $bulletin_list_img_position = get_sub_field('bull_img_position');
 $bulletin_list_img_align = get_sub_field('bull_img_align');
@@ -48,9 +48,9 @@ if ( $bulletin_list_hide_mobile && wp_is_mobile() ) {
 					<div class="flex_bulletin_list_subtitle" itemprop="headline"><?php echo $bulletin_list_subtitle; ?></div>
 				<?php } ?>
 				
-				<?php if( have_rows('flex_bull') ): ?>
+				<?php if( have_rows('f_bull') ): ?>
 					<div class="flex_bulletin_list icons_<?php echo $bulletin_list_size; ?> <?php echo $bulletin_layout; ?>" style="width:<?php echo $bulletin_list_width; ?>%;">
-					<?php while( have_rows('flex_bull') ): the_row(); 
+					<?php while( have_rows('f_bull') ): the_row(); 
 						$bulletin_list_style = get_sub_field('f_bull_style');
 						$bulletin_list_icon = get_sub_field('bull_icon_font');
 						$bulletin_list_img = get_sub_field('bull_icon_img');
