@@ -7,7 +7,7 @@ $client_slider_animation = get_sub_field('client_s_animation');
 $client_slider_break = get_sub_field('client_s_break');
 $client_slider_block_align = get_sub_field('client_s_block_align');
 
-$client_src = get_sub_field('flex_client_src');
+$client_src = get_sub_field('client_s_src');
 $client_type = get_sub_field('client_s_image_type');
 $client_slider_count = get_sub_field('client_s_count');
 $client_slider_count_mobile = get_sub_field('client_s_count_mobile');
