@@ -64,7 +64,7 @@ if ( $one_hide_mobile && wp_is_mobile() ) {
 					<?php if( $one_column_btn ) { ?>
 					<div class="one_column_btn section_readmore_link_wrap">
 						<?php if( $one_col_link_type == 'page_link' ): ?>
-						<a href="<?php echo $button_page_link; ?>" class="<?php echo $one_col_btn_color; ?>">
+						<a href="<?php echo $one_col_page_link; ?>" class="<?php echo $one_col_btn_color; ?>">
 						<?php endif; ?>	
 						<?php if( $one_col_link_type == 'free_link' ): ?>
 						<a href="<?php echo $one_column_link; ?>" class="<?php echo $one_col_btn_color; ?>">
