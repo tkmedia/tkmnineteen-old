@@ -1,4 +1,4 @@
-<?php
+	<?php
 $title_location = get_post_meta( get_the_ID(), 'masthead_title_location', true );
 $title_hor = get_post_meta( get_the_ID(), 'masthead_title_hor', true );
 
@@ -73,7 +73,7 @@ $btn_bg_color =  get_post_meta( get_the_ID(), 'masthead_btn_bg_color', true );
 			</div>	
 			
 		</div>
-		<?php if ( !is_front_page() ) { ?>
+		<?php if ( !is_front_page() && $title_location == 'slider_content_inn' ) { ?>
 		<div class="yoast_breadcrumb col-xs-12 col-md">
 			<div class="yoast_breadcrumb_wrap wrap">
 			<?php if ( function_exists('yoast_breadcrumb') ) {yoast_breadcrumb('<div id="breadcrumbs">','</div>');} ?>				
