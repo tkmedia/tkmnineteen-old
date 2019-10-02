@@ -27,7 +27,8 @@ $home_masthead_content_title = get_field('home_masthead_content_title','option')
 	.top-slider-bg.top-slider-bg-multiple {background:<?php echo $masthead_background_color; ?>;}
 	#home_masthead h1.entry-title.masthead_content_title {font-size:<?php echo $home_masthead_content_title; ?>px;}
 	@media (min-width: 992px) {
-		.top-video-container {height:<?php echo $slider_height; ?>vh !important;}
+		.top-video-container, 
+		#top-slider.top-video-container-wrap {height:<?php echo $slider_height; ?>vh !important;}
 		#home_masthead #top-slider .single-slider-img, 
 		#home_masthead #top-slider .slides {height:<?php echo $slider_height; ?>vh !important;}
 	}
