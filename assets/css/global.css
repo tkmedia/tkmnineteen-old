@@ -366,7 +366,7 @@ Normal Menu - Mobile style's
 	.normal_menu .header_menu #main-menu-state:not(:checked) ~ #main-menu2 {display: flex;margin: 0;flex-wrap: wrap;list-style: none;align-items: center;justify-content: center;}
 
 	.normal_menu .nav-primary.menu > ul > li {height: 100%;display: flex !important;background: transparent;list-style: none;padding: 0px;line-height: 100%;margin: 0px 0;float: none;flex: 1 1 auto;position: relative;align-items: center;text-align:  center;}
-	.normal_menu li.menu-dropdown-icon a {padding-left: 20px !important;}
+	.normal_menu li.menu-dropdown-icon a {padding-left: 0px;}
 	.normal_menu .menu-dropdown-icon > a:after {font-family: 'Font Awesome 5 Pro';content: "\f107";font-style: normal;font-weight: normal;text-decoration: inherit;color: #1f1f1f;font-size: 18px;position: absolute;top: 5px;left:0px;}
 	.normal_menu .menu > ul > li > ul.normal-sub {padding: 0 10px;background-color: #1d2d35;text-align: right;}
 	.normal_menu .menu > ul > li > ul.normal-sub > li {border-top: 1px solid rgba(255, 255, 255, 0.15);}
@@ -713,7 +713,6 @@ header#header-container.fixedHeader {right: 0;left: 0;top: 0;position: fixed;}
 	.normal_menu.full_row_box #header-menu,
 	.normal_menu.full_row_box #main-menu {height: 100%;}
 	.normal_menu.full_row_box .menu-dropdown-icon > a:after {top:0%;color: inherit;left: 0;}
-	.normal_menu.full_row_box .menu-dropdown-icon a {padding-left: 10px;}
 	.normal_menu.site.header_light header .menu-dropdown-icon > a:after {color: #181818;}
 	.normal_menu .logo_left_nav .header_menu_container_inner.wrap {margin-right: 0;}
 	.normal_menu #header_menu_container {-webkit-align-items: flex-end;-ms-flex-align: end;-webkit-box-align: end;align-items: flex-end;}
@@ -753,9 +752,9 @@ header#header-container.fixedHeader {right: 0;left: 0;top: 0;position: fixed;}
 	.normal_menu .menu > ul > li > ul > li a {color: #000 !important;}
 	.normal_menu .menu > ul > li a {font-weight: 200;}
 	.normal_menu .menu > ul > li > a {margin-bottom: 2px;line-height: 1.3;}
-	.normal_menu .menu > ul > li > a span {position: relative;display: inline-block;-webkit-transition: -webkit-transform 0.3s;-moz-transition: -moz-transform 0.3s;transition: transform 0.3s;}
+	.normal_menu .menu > ul > li > a span {position: relative;display: inline-block;-webkit-transition: -webkit-transform 0.3s;-moz-transition: -moz-transform 0.3s;transition: transform 0.3s;width: 100%;}
 	.normal_menu .menu.data-hover-effect > ul > li > a span::before {position: absolute;top: 100%;content: attr(data-hover);-webkit-transform: translate3d(0,0,0);-moz-transform: translate3d(0,0,0);transform: translate3d(0,0,0);border-bottom: 1px solid #12a39c;color: #12a39c !important;}
-	.normal_menu ul#main-menu li.current-menu-item a span {color: #0095eb !important;}
+	.normal_menu ul#main-menu li.current-menu-item a span {color: #0095eb;}
 
 }
 @media (max-width: 991px) {
@@ -865,6 +864,8 @@ li.social-item button.footer-toggle-contact {background: transparent;cursor: poi
 li.social-item.site_phone {border-right: 1px solid #8e8f90;padding-right: 20px;margin-right: 10px;font-size: 20px;}
 li.social-item.site_phone i {color: #fff;padding-left: 10px;}
 li.social-item.site_phone a {color: #fff;}
+
+.top_panel_side #header-info ul.social-bar {position: relative;}
 
 .header_light li.social-item {color: #222;}
 .header_light li.social-item.site_phone a {color: #222 !important;}
@@ -1325,7 +1326,7 @@ span.header_phone_num.footer_phone_num {display: block;}
 
 /* ## Branding
 -------------------------------------------------------------- */
-.header-logo {padding: 15px 0px;}
+.header-logo {padding: 0px;}
 
 @media only screen and (max-width: 991px) {
 	#branding {padding-right: 50px;}
