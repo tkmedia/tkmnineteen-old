@@ -367,7 +367,7 @@ Normal Menu - Mobile style's
 
 	.normal_menu .nav-primary.menu > ul > li {height: 100%;display: flex !important;background: transparent;list-style: none;padding: 0px;line-height: 100%;margin: 0px 0;float: none;flex: 1 1 auto;position: relative;align-items: center;text-align:  center;}
 	.normal_menu li.menu-dropdown-icon a {padding-left: 0px;}
-	.normal_menu .menu-dropdown-icon > a:after {font-family: 'Font Awesome 5 Pro';content: "\f107";font-style: normal;font-weight: normal;text-decoration: inherit;color: #1f1f1f;font-size: 18px;position: absolute;top: 5px;left:0px;}
+	.normal_menu .menu-dropdown-icon > a span:after {font-family: 'Font Awesome 5 Pro';content: "\f107";font-style: normal;font-weight: normal;text-decoration: inherit;color: #1f1f1f;font-size: 18px;position: absolute;top: 5px;left:0px;}
 	.normal_menu .menu > ul > li > ul.normal-sub {padding: 0 10px;background-color: #1d2d35;text-align: right;}
 	.normal_menu .menu > ul > li > ul.normal-sub > li {border-top: 1px solid rgba(255, 255, 255, 0.15);}
 	.normal_menu .menu > ul > li > ul.normal-sub > li:first-child {border-top: none;}
@@ -721,9 +721,6 @@ header#header-container.fixedHeader {right: 0;left: 0;top: 0;position: fixed;}
 	.normal_menu.header_dark .menu > ul > li a {color: #fff;}
 	.normal_menu.header_light .menu > ul > li a {color: #000;}
 	.normal_menu.header_light .menu-dropdown-icon > a:after {color: #000;}
-	.normal_menu.header_dark .menu > ul > li a {color: #fff;}
-	.normal_menu.header_light .menu > ul > li a {color: #000;}
-	.normal_menu.header_light .menu-dropdown-icon > a:after {color: #000;}
 
 	/* MegaMenu Nav - normal_menu */
 	.normal_menu .menu > ul > li > ul > li a {border-bottom: none;}
@@ -865,7 +862,7 @@ li.social-item.site_phone {border-right: 1px solid #8e8f90;padding-right: 20px;m
 li.social-item.site_phone i {color: #fff;padding-left: 10px;}
 li.social-item.site_phone a {color: #fff;}
 
-.top_panel_side #header-info ul.social-bar {position: relative;}
+.top_panel_side #header-info ul.social-bar {position: relative;top: auto;left: auto;}
 
 .header_light li.social-item {color: #222;}
 .header_light li.social-item.site_phone a {color: #222 !important;}
