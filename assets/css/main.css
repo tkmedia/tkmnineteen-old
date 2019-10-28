@@ -15,7 +15,7 @@ h1.entry-title.masthead_content_title:after {content: none;}
 
 @media (min-width: 992px) {
 	.normal_menu .nav-primary.menu > ul > li {padding: 0;line-height: 1;}
-	.normal_menu .menu > ul > li > a span {padding: 2px 0px;border-left: 1px solid #63d5ff;line-height: 1;}
+	.normal_menu .menu > ul > li > a span {padding: 2px 0px;border-left:1px solid #8e8f90;line-height: 1;}
 	.normal_menu .menu > ul > li:last-child > a span {border-left:none;}
 }
 
