@@ -2,11 +2,11 @@
 //if( have_rows('content_rows') ):
 	//while( have_rows('content_rows') ): the_row(); 
 	
-	$top_divider = get_sub_field('top_divider_type');
-	$top_divider_color = get_sub_field('top_divider_color');
-	$top_divider_height = get_sub_field('top_divider_height');
-	$top_divider_position = get_sub_field('top_divider_position');
-	$top_divider_bg_color = get_sub_field('top_divider_bg_color');
+	$top_divider = get_sub_field('conR_tDT');
+	$top_divider_color = get_sub_field('conR_tDC');
+	$top_divider_bg_color = get_sub_field('conR_tBC');
+	$top_divider_height = get_sub_field('conR_tDh');
+	$top_divider_position = get_sub_field('conR_tDp');
 	
 		if( $top_divider ) { ?>
 			<div class="flex_content_row_divider_top style-<?php echo $top_divider; ?>" style="<?php if( $top_divider_position == 'on-top' ) { ?>z-index:99999;<?php } ?>"><!-- flex_content_row_divider -->
