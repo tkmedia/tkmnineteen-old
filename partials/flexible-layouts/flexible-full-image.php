@@ -1,45 +1,41 @@
 <?php
-$f_img_block_width = get_sub_field('f_img_block_width');
-$f_img_mobile_cols = get_sub_field('f_img_mobile');
-$f_img_order = get_sub_field('f_img_order');
-$f_img_hide_mobile = get_sub_field('f_img_hide_mobile');
-$f_img_break = get_sub_field('f_img_break');
-$f_img_block_align = get_sub_field('f_img_block_align');
-
+$f_img_block_width = get_sub_field('fi_bW');
+$f_img_break = get_sub_field('fi_br');
+$f_img_block_align = get_sub_field('fi_bAl');
+$f_img_order = get_sub_field('fi_or');
+$f_img_mobile_cols = get_sub_field('fi_mo');
+$f_img_hide_mobile = get_sub_field('fi_hMo');
+$image_animation = get_sub_field('fi_an');
+$f_img_title = get_sub_field('fi_t');
+$f_img_title_size = get_sub_field('fi_tSz');
+$f_img_title_color = get_sub_field('fi_tCl');
+$f_img_title_align = get_sub_field('fi_tAl');
+$f_img_title_location = get_sub_field('fi_tLo');
 $f_img = get_sub_field('f_img');
 
-$f_img_title = get_sub_field('f_img_title');
-$f_img_title_size = get_sub_field('f_img_title_size');
-$f_img_title_color = get_sub_field('f_img_title_color');
-$f_img_title_align = get_sub_field('f_img_title_align');
-$f_img_title_location = get_sub_field('f_img_title_location');
+$f_img_type = get_sub_field('fi_tp');
+$f_img_align = get_sub_field('fi_al');
+$f_img_style = get_sub_field('fi_st');
+$f_img_bg = get_sub_field('fi_bg');
+$f_img_logo = get_sub_field('fi_lg');
+$logo_position = get_sub_field('fi_lgP');
+$f_img_height = get_sub_field('fi_h'); 
+$f_img_text = get_sub_field('fi_tx');
+$f_img_text_ver = get_sub_field('fi_txV');
+$f_img_text_align = get_sub_field('fi_txAl');
+$f_img_text_size = get_sub_field('fi_txSz');
+$f_img_text_color = get_sub_field('fi_txCl');
+$f_img_links = get_sub_field('fi_lk');
 
-$f_img_style = get_sub_field('f_img_style');
-$f_img_type = get_sub_field('f_img_type');
-$f_img_align = get_sub_field('f_img_align');
-$f_img_btn1 = get_sub_field('f_img_btn1');
-$f_img_btn1_link = get_sub_field('f_img_btn1_link');
-$f_img_btn2 = get_sub_field('f_img_btn2');
-$f_img_btn2_link = get_sub_field('f_img_btn2_link');
-$f_img_text = get_sub_field('f_img_text');
-$f_img_text_align = get_sub_field('f_img_text_align');
-$f_img_text_ver = get_sub_field('f_img_text_ver');
-$f_img_text_color = get_sub_field('f_img_text_color');
-$f_img_text_size = get_sub_field('f_img_text_size');
+$f_img_btn1 = get_sub_field('fi_bt1');
+$f_img_btn1_link = get_sub_field('fi_bt1l');
+$f_img_btn2 = get_sub_field('fi_bt2');
+$f_img_btn2_link = get_sub_field('fi_bt2l');
+$f_img_full_link = get_sub_field('fi_fl');
+$image_full_link_fancybox = get_sub_field('fi_lFb');
 
-$f_img_links = get_sub_field('f_img_links');
-$f_img_full_link = get_sub_field('f_img_full_link');
-
-$f_img_logo = get_sub_field('f_img_logo');
-$logo_position = get_sub_field('f_img_logo_position');
-$f_img_bg = get_sub_field('f_img_bg');
-$f_img_height = get_sub_field('f_img_height'); 
-$f_img_block_width = get_sub_field('f_img_block_width');
-$image_full_link_fancybox = get_sub_field('f_img_full_link_fancybox');
-
-$image_full_top_margin = get_sub_field('f_img_full_top_margin');
-$image_full_bottom_margin = get_sub_field('f_img_bottom_margin');
-$image_animation = get_sub_field('f_img_animation');
+$image_full_top_margin = get_sub_field('fi_fTm');
+$image_full_bottom_margin = get_sub_field('fi_bM');
 
 if ( $f_img_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
