@@ -1,28 +1,27 @@
 <?php 
-$button_block_width = get_sub_field('f_btn_block_width');
-$button_order = get_sub_field('f_btn_order');
-$button_mobile = get_sub_field('f_btn_mobile');
-$button_hide_mobile = get_sub_field('f_btn_hide_mobile');
-$button_break = get_sub_field('f_btn_break');
-$button_block_align = get_sub_field('f_btn_block_align');
-
-$button_text = get_sub_field('f_btn_text');
-$button_link_type = get_sub_field('f_btn_link_type');
-$button_page_link = get_sub_field('f_btn_page_link');
-$button_free_link = get_sub_field('f_btn_free_link');
-$button_style = get_sub_field('f_btn_style');
-$button_color = get_sub_field('f_btn_color');
-$button_bg = get_sub_field('f_btn_bg');
-$button_hor_align = get_sub_field('f_btn_hor_align');
-$button_ver_align = get_sub_field('f_btn_ver_align');
-$button_form_link = get_sub_field('f_btn_form_link');
-$button_icon = get_sub_field('f_btn_icon_type');
-$button_icon_side = get_sub_field('f_btn_icon_side');
-$button_icon_color = get_sub_field('f_btn_icon_color');
-$button_icon_html = get_sub_field('f_btn_icon_html');
-$button_icon_font = get_sub_field('f_btn_icon_font');
-$button_icon_img = get_sub_field('f_btn_icon_img');
-$buttont_animation = get_sub_field('f_btn_animation');
+$button_block_width = get_sub_field('bt_bW');
+$button_break = get_sub_field('bt_br');
+$button_block_align = get_sub_field('bt_bAl');
+$button_order = get_sub_field('bt_or');
+$button_mobile = get_sub_field('bt_mo');
+$button_hide_mobile = get_sub_field('bt_hMo');
+$buttont_animation = get_sub_field('bt_an');
+$button_text = get_sub_field('bt_tx');
+$button_link_type = get_sub_field('bt_lTp');
+$button_page_link = get_sub_field('bt_pLk');
+$button_free_link = get_sub_field('bt_fLk');
+$button_form_link = get_sub_field('bt_foLk');
+$button_style = get_sub_field('bt_sy');
+$button_color = get_sub_field('bt_tCl');
+$button_bg = get_sub_field('bt_bg');
+$button_hor_align = get_sub_field('bt_hAl');
+$button_ver_align = get_sub_field('bt_vAl');
+$button_icon = get_sub_field('bt_iTy');
+$button_icon_side = get_sub_field('bt_iS');
+$button_icon_img = get_sub_field('bt_iI');
+$button_icon_font = get_sub_field('bt_iF');
+$button_icon_color = get_sub_field('bt_iCl');
+$button_icon_html = get_sub_field('bt_ht');
 
 if ( $button_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
