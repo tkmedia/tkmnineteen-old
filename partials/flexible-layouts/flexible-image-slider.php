@@ -1,24 +1,24 @@
 <?php 
-$gallery_slider_width = get_sub_field('img_slider_block_width');
-$gallery_slider_mobile_cols = get_sub_field('img_slider_mobile');
-$gallery_slider_hide_mobile = get_sub_field('img_slider_hide_mobile');
-$gallery_slider_order = get_sub_field('img_slider_order');
-$gallery_slider_break = get_sub_field('img_slider_break');
-$gallery_slider_block_align = get_sub_field('img_slider_block_align');
+$gallery_slider_width = get_sub_field('is_bW');
+$gallery_slider_mobile_cols = get_sub_field('is_mo');
+$gallery_slider_hide_mobile = get_sub_field('is_hMo');
+$gallery_slider_order = get_sub_field('is_or');
+$gallery_slider_break = get_sub_field('is_br');
+$gallery_slider_block_align = get_sub_field('is_bAl');
 
-$gallery_slider_title = get_sub_field('img_slider_title');
-$gallery_slider_subtitle = get_sub_field('img_slider_subtitle');
-$gallery_slider_title_a = get_sub_field('img_slider_title_a');
+$gallery_slider_title = get_sub_field('is_t');
+$gallery_slider_subtitle = get_sub_field('is_st');
+$gallery_slider_title_a = get_sub_field('is_tAl');
 $gallery_slider_text = get_sub_field('img_slider_text');
-$gallery_slider_image = get_sub_field('img_slider_image');
-$gallery_slider_count = get_sub_field('img_slider_count');
-$gallery_slider_count_mobile = get_sub_field('img_slider_count_mobile');
-$gallery_slider_size = get_sub_field('img_slider_size');
-$gallery_slider_thumbs = get_sub_field('img_slider_thumbs');
-$gallery_slider_fancybox = get_sub_field('img_slider_fancybox');
-$gallery_slider_animation = get_sub_field('img_slider_animation');
-$gallery_slider_thumb_count = get_sub_field('img_slider_thumb_count');
-$gallery_slider_caption = get_sub_field('img_slider_caption');
+$gallery_slider_image = get_sub_field('is_im');
+$gallery_slider_count = get_sub_field('is_cu');
+$gallery_slider_count_mobile = get_sub_field('is_cuM');
+$gallery_slider_size = get_sub_field('is_sz');
+$gallery_slider_thumbs = get_sub_field('is_th');
+$gallery_slider_fancybox = get_sub_field('is_fb');
+$gallery_slider_animation = get_sub_field('is_an');
+$gallery_slider_thumb_count = get_sub_field('is_thC');
+$gallery_slider_caption = get_sub_field('is_cp');
 
 if ( $gallery_slider_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
