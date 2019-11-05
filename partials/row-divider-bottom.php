@@ -2,12 +2,12 @@
 <?php 
 //if( have_rows('content_rows') ):
 	//while( have_rows('content_rows') ): the_row(); 
+	$bottom_divider = get_sub_field('conR_bDT');
+	$bottom_divider_color = get_sub_field('conR_bDC');
+	$bottom_divider_bg_color = get_sub_field('conR_bBC');
+	$bottom_divider_height = get_sub_field('conR_bDh');
+	$bottom_divider_position = get_sub_field('conR_bDp');		
 	
-	$bottom_divider = get_sub_field('bottom_divider_type');
-	$bottom_divider_color = get_sub_field('bottom_divider_color');
-	$bottom_divider_height = get_sub_field('bottom_divider_height');
-	$bottom_divider_position = get_sub_field('bottom_divider_position');		
-	$bottom_divider_bg_color = get_sub_field('bottom_divider_bg_color');
 		if( $bottom_divider ) { ?>
 		
 			<div class="flex_content_row_divider_bottom style-<?php echo $bottom_divider; ?>" style="<?php if( $bottom_divider_position == 'on-top' ) { ?>z-index:99999;<?php } ?>"><!-- flex_content_row_divider -->
