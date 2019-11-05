@@ -1,27 +1,28 @@
 <?php
-$link_grid_block_width = get_sub_field('man_link_grid_block_width');
-$link_grid_order = get_sub_field('man_link_grid_order');
-$link_grid_mobile = get_sub_field('man_link_grid_mobile');
-$link_grid_hide_mobile = get_sub_field('man_link_grid_hide_mobile');
-$link_grid_break = get_sub_field('man_link_grid_break');
-$link_grid_block_align = get_sub_field('man_link_grid_block_align');
-$link_grid_style = get_sub_field('man_link_grid_style');
-$link_grid_slider = get_sub_field('man_link_grid_slider');
+$link_grid_block_width = get_sub_field('mlg_bW');
+$link_grid_break = get_sub_field('mlg_br');
+$link_grid_block_align = get_sub_field('mlg_bAl');
+$link_grid_order = get_sub_field('mlg_or');
+$link_grid_mobile = get_sub_field('mlg_mo');
+$link_grid_hide_mobile = get_sub_field('mlg_hMo');
+$link_grid_animation = get_sub_field('mlg_an');
+$manual_link_title = get_sub_field('mlg_t');
+$manual_link_title_size = get_sub_field('mlg_tSz');
+$manual_link_title_color = get_sub_field('mlg_tCl');
+$manual_link_title_align = get_sub_field('mlg_tAl');
+$manual_link_subtitle = get_sub_field('mlg_st');
+$manual_link_subtitle_size = get_sub_field('mlg_stSz');
+$manual_link_subtitle_color = get_sub_field('mlg_stCl');
 
-$link_grid_type = get_sub_field( 'man_link_grid_type' );
-$link_grid_grid = get_sub_field( 'man_link_grid_grid' );
-$link_grid_bw = get_sub_field('man_link_grid_bw');
-$text_position = get_sub_field('man_link_grid_text_position');
-$link_grid_count = get_sub_field('man_link_grid_count');
-$link_grid_animation = get_sub_field('man_link_grid_animation');
+$link_grid_type = get_sub_field( 'mlg_tp' );
+$link_grid_count = get_sub_field('mlg_cu');
+$link_grid_bw = get_sub_field('mlg_bw');
 
-$manual_link_title = get_sub_field('man_link_title');
-$manual_link_title_size = get_sub_field('man_link_title_size');
-$manual_link_title_color = get_sub_field('man_link_title_color');
-$manual_link_title_align = get_sub_field('man_link_title_align');
-$manual_link_subtitle = get_sub_field('man_link_subtitle');
-$manual_link_subtitle_size = get_sub_field('man_link_subtitle_size');
-$manual_link_subtitle_color = get_sub_field('man_link_subtitle_color');
+$link_grid_style = get_sub_field('mlg_sy');
+$link_grid_slider = get_sub_field('mlg_sl');
+$text_position = get_sub_field('mlg_txP');
+
+$link_grid_grid = get_sub_field( 'mlg_gd' );
 
 	if ( $link_grid_count == 1 ) : $m_xs_cols = "12"; $m_sm_cols = "12"; $m_md_cols = "12"; $m_lg_cols = "12";
 	elseif ( $link_grid_count == 2 ) : $m_xs_cols = "12"; $m_sm_cols = "6"; $m_md_cols = "6"; $m_lg_cols = "6";
@@ -60,12 +61,12 @@ if ( $link_grid_hide_mobile && wp_is_mobile() ) {
 
 					<?php if( $link_grid_type == 'box-layout' ) { ?>
 					<div class="layout <?php if( $link_grid_slider ) { ?>swiper-wrapper<?php } else { ?>row-flex center-xs<?php } ?>">
-					<?php while ( have_rows('man_link_grid_grid') ) : the_row();
-						$masonary_img = get_sub_field('masonary_img');
-						$masonary_title = get_sub_field('masonary_title');
-						$masonary_subtitle = get_sub_field('masonary_subtitle');
-						$masonary_link = get_sub_field('masonary_link');
-						$masonary_title_color = get_sub_field('masonary_title_color');
+					<?php $link_item = 1; while ( have_rows('mlg_gd') ) : the_row();
+						$masonary_img = get_sub_field('m_im');
+						$masonary_title = get_sub_field('m_t');
+						$masonary_subtitle = get_sub_field('m_st');
+						$masonary_link = get_sub_field('m_lk');
+						$masonary_title_color = get_sub_field('m_tCl');
 					?>
 					    <div class="grid-item <?php if( $link_grid_slider ) { ?>swiper-slide<?php } else { ?>col-xs-<?php echo $m_xs_cols; ?> col-sm-<?php echo $m_sm_cols; ?> col-md-<?php echo $m_md_cols; ?> col-lg-<?php echo $m_lg_cols; ?><?php } ?>">
 							<a href="<?php echo $masonary_link; ?>" class="img_info_link">
@@ -97,10 +98,10 @@ if ( $link_grid_hide_mobile && wp_is_mobile() ) {
 
 					<?php } elseif( $link_grid_type == 'vid-layout' ) { ?>
 					<div class="layout <?php if( $link_grid_slider ) { ?>swiper-wrapper<?php } else { ?>row-flex<?php } ?>">
-					<?php while ( have_rows('man_link_grid_grid') ) : the_row();
-						$masonary_img = get_sub_field('masonary_img');
-						$masonary_vid_link = get_sub_field('masonary_vid_link');
-						$masonary_vid_title = get_sub_field('masonary_vid_title');
+					<?php while ( have_rows('mlg_gd') ) : the_row();
+						$masonary_img = get_sub_field('m_im');
+						$masonary_vid_link = get_sub_field('m_vLk');
+						$masonary_vid_title = get_sub_field('m_vT');
 						preg_match('%(?:youtube(?:-nocookie)?\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/ ]{11})%i', $masonary_vid_link, $match);
 						$youtube_id = $match[1];
 					?>
@@ -129,12 +130,12 @@ if ( $link_grid_hide_mobile && wp_is_mobile() ) {
 				    <?php } else { ?>
 
 					<div class="layout">
-					<?php while ( have_rows('man_link_grid_grid') ) : the_row();
-						$masonary_img = get_sub_field('masonary_img');
-						$masonary_title = get_sub_field('masonary_title');
-						$masonary_subtitle = get_sub_field('masonary_subtitle');
-						$masonary_link = get_sub_field('masonary_link');
-						$masonary_title_color = get_sub_field('masonary_title_color');
+					<?php while ( have_rows('mlg_gd') ) : the_row();
+						$masonary_img = get_sub_field('m_im');
+						$masonary_title = get_sub_field('m_t');
+						$masonary_subtitle = get_sub_field('m_st');
+						$masonary_link = get_sub_field('m_lk');
+						$masonary_title_color = get_sub_field('m_tCl');
 					?>
 						<div class="grid-item">
 							<a href="<?php echo $masonary_link; ?>" class="img_info_link">
