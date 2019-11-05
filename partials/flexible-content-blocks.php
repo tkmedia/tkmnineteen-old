@@ -1,44 +1,44 @@
 <?php
 
-if( have_rows('content_rows') ): $row = 1;?>
+if( have_rows('conR') ): $row = 1;?>
 	
 	<?php
-	while( have_rows('content_rows') ): the_row();
+	while( have_rows('conR') ): the_row();
 
 		$cols_mobile = get_sub_field('cols_mobile');
-		$cols_bg = get_sub_field('cols_bg');
-		$cols_overlay_r = get_sub_field('cols_overlay_r');
-		$cols_overlay_opacity_r = get_sub_field('cols_overlay_opacity_r');
-		$cols_overlay_l = get_sub_field('cols_overlay_l');
-		$cols_overlay_opacity_l = get_sub_field('cols_overlay_opacity_l');
+		$cols_bg = get_sub_field('conR_bg');
+		$cols_overlay_r = get_sub_field('conR_oR');
+		$cols_overlay_opacity_r = get_sub_field('conR_ooR');
+		$cols_overlay_l = get_sub_field('conR_oL');
+		$cols_overlay_opacity_l = get_sub_field('conR_ooL');
 			$Hex_color_r = $cols_overlay_r;
 			$RGB_color_r = hex2rgb($Hex_color_r);
 			$Final_Rgb_color_r = implode(", ", $RGB_color_r);
 			$Hex_color_l = $cols_overlay_l;
 			$RGB_color_l = hex2rgb($Hex_color_l);
 			$Final_Rgb_color_l = implode(", ", $RGB_color_l);			
-		$row_padding_top = get_sub_field('cols_padding_top');
-		$row_padding_bottom = get_sub_field('cols_padding_bottom');
-		$row_padding_right = get_sub_field('cols_padding_right');
-		$row_padding_left = get_sub_field('cols_padding_left');
-		$overlay_rotate = get_sub_field('cols_overlay_rotate');
+		$row_padding_top = get_sub_field('conR_pT');
+		$row_padding_bottom = get_sub_field('conR_pB');
+		$row_padding_right = get_sub_field('conR_pR');
+		$row_padding_left = get_sub_field('conR_pL');
+		$overlay_rotate = get_sub_field('conR_ogr');
 		
-		$row_ver_align = get_sub_field('row_ver_align');
+		$row_ver_align = get_sub_field('conR_vA');
 		
-		$row_wrap = get_sub_field('row_wrap');
-		$row_col_padding = get_sub_field('row_col_padding');
+		$row_wrap = get_sub_field('conR_wp');
+		$row_col_padding = get_sub_field('conR_pad');
 		
-		$row_dividers = get_sub_field('row_dividers');
-		$top_divider = get_sub_field('top_divider_type');
-		$top_divider_color = get_sub_field('top_divider_color');
-		$top_divider_bg_color = get_sub_field('top_divider_bg_color');
-		$top_divider_height = get_sub_field('top_divider_height');
-		$top_divider_position = get_sub_field('top_divider_position');
-		$bottom_divider = get_sub_field('bottom_divider_type');
-		$bottom_divider_color = get_sub_field('bottom_divider_color');
-		$bottom_divider_bg_color = get_sub_field('bottom_divider_bg_color');
-		$bottom_divider_height = get_sub_field('bottom_divider_height');
-		$bottom_divider_position = get_sub_field('bottom_divider_position');		
+		$row_dividers = get_sub_field('conR_div');
+		$top_divider = get_sub_field('conR_tDT');
+		$top_divider_color = get_sub_field('conR_tDC');
+		$top_divider_bg_color = get_sub_field('conR_tBC');
+		$top_divider_height = get_sub_field('conR_tDh');
+		$top_divider_position = get_sub_field('conR_tDp');
+		$bottom_divider = get_sub_field('conR_bDT');
+		$bottom_divider_color = get_sub_field('conR_bDC');
+		$bottom_divider_bg_color = get_sub_field('conR_bBC');
+		$bottom_divider_height = get_sub_field('conR_bDh');
+		$bottom_divider_position = get_sub_field('conR_bDp');		
 
 		$row_top_wrap_line = get_sub_field('row_top_wrap_line');
 		$row_bottom_wrap_line = get_sub_field('row_bottom_wrap_line');
@@ -65,15 +65,15 @@ if( have_rows('content_rows') ): $row = 1;?>
 		<?php } ?>
 		</style>
 		<?php
-		set_query_var( 'top_divider_type', $top_divider );
-		set_query_var( 'top_divider_color', $top_divider_color );
-		set_query_var( 'top_divider_height', $top_divider_height );
-		set_query_var( 'top_divider_position', $top_divider_position );
-		set_query_var( 'bottom_divider_type', $bottom_divider );
-		set_query_var( 'bottom_divider_color', $bottom_divider_color );
-		set_query_var( 'bottom_divider_height', $bottom_divider_height );
-		set_query_var( 'bottom_divider_position', $bottom_divider_position );		
-		
+		set_query_var( 'conR_tDT', $top_divider );
+		set_query_var( 'conR_tDC', $top_divider_color );
+		set_query_var( 'conR_tDh', $top_divider_height );
+		set_query_var( 'conR_tDp', $top_divider_position );
+		set_query_var( 'conR_bDT', $bottom_divider );
+		set_query_var( 'conR_bDC', $bottom_divider_color );
+		set_query_var( 'conR_bDh', $bottom_divider_height );
+		set_query_var( 'conR_bDp', $bottom_divider_position );				
+
 		if( $top_divider && $row_dividers) {
 			get_template_part('partials/row-divider-top' );
 		} ?>
@@ -85,9 +85,9 @@ if( have_rows('content_rows') ): $row = 1;?>
 		// ID of the current item in the WordPress Loop
 		$id = get_the_ID();	
 		// check if the flexible content field has rows of data
-		if ( have_rows( 'flex_content', $id ) ) : $count = 1;
+		if ( have_rows( 'fCon', $id ) ) : $count = 1;
 			// loop through the selected ACF layouts and display the matching partial
-			while ( have_rows( 'flex_content', $id ) ) : the_row();
+			while ( have_rows( 'fCon', $id ) ) : the_row();
 			
 				set_query_var( 'row', $row );
 				set_query_var( 'count', $count );
