@@ -1,19 +1,19 @@
 <?php 
-$divider_block_width = get_sub_field('divider_block_width');
-$divider_mobile_cols = get_sub_field('divider_mobile');
-$divider_hide_mobile = get_sub_field('divider_hide_mobile');
-$divider_order = get_sub_field('divider_order');
-$divider_break = get_sub_field('divider_break');
-$divider_block_align = get_sub_field('divider_block_align');
+$divider_block_width = get_sub_field('dv_bW');
+$divider_break = get_sub_field('dv_br');
+$divider_block_align = get_sub_field('dv_bAl');
+$divider_order = get_sub_field('dv_or');
+$divider_mobile_cols = get_sub_field('dv_mo');
+$divider_hide_mobile = get_sub_field('dv_hMo');
+$divider_animation = get_sub_field('dv_an');
+$divider_line_thick = get_sub_field('dv_lTh');
+$divider_line_width = get_sub_field('dv_lW');
+$divider_line_color = get_sub_field('dv_lCl');
+$divider_line_ver = get_sub_field('dv_lVe');
+$divider_line_hor = get_sub_field('dv_lHo');
+$divider_height = get_sub_field('dv_h');
+$divider_line = get_sub_field('dv_l');
 
-$divider_height = get_sub_field('divider_height');
-$divider_line = get_sub_field('divider_line');
-$divider_line_thick = get_sub_field('divider_line_thick');
-$divider_line_ver = get_sub_field('divider_line_ver');
-$divider_line_hor = get_sub_field('divider_line_hor');
-$divider_line_color = get_sub_field('divider_line_color');
-$divider_line_width = get_sub_field('divider_line_width');
-$divider_animation = get_sub_field('divider_animation');
 
 if ( $divider_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
