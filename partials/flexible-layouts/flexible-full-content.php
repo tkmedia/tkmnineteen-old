@@ -1,35 +1,37 @@
-<?php 
-$one_block_width = get_sub_field('f_con_block_width');
-$one_mobile_cols = get_sub_field('f_con_mobile');
-$one_hide_mobile = get_sub_field('f_con_hide_mobile');
-$one_col_order = get_sub_field('f_con_order');
-$one_col_break = get_sub_field('f_con_break');
-$one_col_block_align = get_sub_field('f_con_block_align');
-$one_col_animation = get_sub_field('f_con_animation');
-
-$one_column_title = get_sub_field('f_con_title');
-$one_column_subtitle = get_sub_field('f_con_subtitle');
-$one_column_title_size = get_sub_field('f_con_title_size');
-$one_column_subtitle_size = get_sub_field('f_con_subtitle_size');
-$one_column_width = get_sub_field('f_con_width');
-$one_column_title_a = get_sub_field('f_con_title_a');
-$one_column_text = get_sub_field('f_con_text');
-
-$one_title_color = get_sub_field('f_con_title_color');
-$one_subtitle_color = get_sub_field('f_con_subtitle_color');
-$one_text_color = get_sub_field('f_con_text_color');
-$one_col_btn_color = get_sub_field('f_con_btn_color');
-$one_col_bg_radius = get_sub_field('f_con_bg_radius');
-$one_col_ver_align = get_sub_field('f_con_ver_align');
-
-$one_col_link_type = get_sub_field('f_con_link_type');
-$one_col_page_link = get_sub_field('f_con_page_link');
-$one_column_btn = get_sub_field('f_con_btn');
-$one_column_link = get_sub_field('f_con_link');
-$one_col_form_link = get_sub_field('f_con_form_link');
-$one_col_bg_r = get_sub_field('f_con_bg_r');
-$one_col_bg_l = get_sub_field('f_con_bg_l');
-$one_col_bg_rotate = get_sub_field('f_con_bg_rotate');
+<?php
+$one_block_width = get_sub_field('fc_bW');
+$one_col_break = get_sub_field('fc_br');
+$one_col_block_align = get_sub_field('fc_bAl');
+$one_col_order = get_sub_field('fc_or');
+$one_mobile_cols = get_sub_field('fc_mo');
+$one_hide_mobile = get_sub_field('fc_hMo');
+$one_col_animation = get_sub_field('fc_an');
+//$one_col_bg_img = get_sub_field('fc_bg');
+$one_col_bg_r = get_sub_field('fc_bgR');
+$one_col_bg_l = get_sub_field('fc_bgL');
+$one_col_bg_rotate = get_sub_field('fc_bgRo');
+$one_col_bg_radius = get_sub_field('fc_bgRa');
+$one_col_ver_align = get_sub_field('fc_vAl');
+$one_column_title = get_sub_field('fc_t');
+$one_column_title_size = get_sub_field('fc_tSz');
+$one_column_subtitle = get_sub_field('fc_st');
+$one_column_subtitle_size = get_sub_field('fc_stSz');
+$one_title_color = get_sub_field('fc_tCl');
+$one_subtitle_color = get_sub_field('fc_stCl');
+$one_text_color = get_sub_field('fc_txCl');
+$one_column_width = get_sub_field('fc_w');
+$one_column_title_a = get_sub_field('fc_tAl');
+//$f_con_pad_top = get_sub_field('fc_pdT');
+//$f_con_pad_bot = get_sub_field('fc_pdB');
+//$f_con_pad_r = get_sub_field('fc_pdR');
+//$f_con_pad_l = get_sub_field('fc_pdL');
+$one_column_text = get_sub_field('fc_tx');
+$one_column_btn = get_sub_field('fc_bt');
+$one_col_link_type = get_sub_field('fc_lkT');
+$one_column_link = get_sub_field('fc_lk');
+//$one_col_page_link = get_sub_field('fc_pLk');
+$one_col_form_link = get_sub_field('fc_fLk');
+$one_col_btn_color = get_sub_field('fc_btCl');
 
 $Hex_color_r = $one_col_bg_r;
 $RGB_color_r = hex2rgb($Hex_color_r);
