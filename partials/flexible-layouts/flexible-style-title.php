@@ -1,31 +1,30 @@
 <?php 
-$style_title_block_width = get_sub_field('st_title_block_width');
-$flex_style_title_mobile = get_sub_field('st_title_mobile');
-$title_hide_mobile = get_sub_field('st_title_hide_mobile');
-$title_order = get_sub_field('st_title_order');
-$title_break = get_sub_field('st_title_break');
-$title_block_align = get_sub_field('st_title_block_align');
+$style_title_block_width = get_sub_field('st_bW');
+$title_break = get_sub_field('st_br');
+$title_block_align = get_sub_field('st_bA');
+$title_order = get_sub_field('st_or');
+$flex_style_title_mobile = get_sub_field('st_mo');
+$title_hide_mobile = get_sub_field('st_hmo');
+$style_title_animation = get_sub_field('st_an');
+$title_border = get_sub_field('st_bo');
+$title_border_color = get_sub_field('st_boC');
+$title_border_size = get_sub_field('st_boS');
 
-$title_type = get_sub_field('st_title_type');
-$title_header = get_sub_field('st_title_header');
-$title_size = get_sub_field('st_title_size');
-$subtitle_size = get_sub_field('st_subtitle_size');
-$title_align = get_sub_field('st_title_align');
-$title_color = get_sub_field('st_title_color');
-$subtitle_color = get_sub_field('st_subtitle_color');
-$title_first = get_sub_field('st_title_first');
-$title_last = get_sub_field('st_title_last');
-$title_bg_color = get_sub_field('st_title_bg_color');
-$subtitle_bg_color = get_sub_field('st_subtitle_bg_color');
-$style_title_animation = get_sub_field('st_title_animation');
-$title_intro = get_sub_field('st_intro');
-
-$pretitle_color = get_sub_field('st_pretitle_color');
-$intro_color = get_sub_field('st_intro_color');
-$pre_title = get_sub_field('st_pre_title');
-$title_border = get_sub_field('st_title_border');
-$title_border_color = get_sub_field('st_title_border_color');
-$title_border_size = get_sub_field('st_title_border_size');
+$title_type = get_sub_field('st_tp');
+$title_header = get_sub_field('st_h');
+$title_size = get_sub_field('st_sz');
+$subtitle_size = get_sub_field('st_sSz');
+$title_align = get_sub_field('st_al');
+$title_color = get_sub_field('st_cl');
+$title_bg_color = get_sub_field('st_bCl');
+$subtitle_color = get_sub_field('st_sCl');
+$subtitle_bg_color = get_sub_field('st_sbCl');
+$pretitle_color = get_sub_field('st_pCl');
+$intro_color = get_sub_field('st_inCl');
+$pre_title = get_sub_field('st_pT');
+$title_first = get_sub_field('st_fr');
+$title_last = get_sub_field('st_lt');
+$title_intro = get_sub_field('st_in');
 
 if ( $title_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
