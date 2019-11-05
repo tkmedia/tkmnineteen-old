@@ -1,27 +1,23 @@
 <?php 
-$video_block_width = get_sub_field('f_vid_block_width');
-$video_break = get_sub_field('f_vid_break');
-$video_block_align = get_sub_field('f_vid_block_align');
-$video_order = get_sub_field('f_vid_order');
-$video_mobile = get_sub_field('f_vid_mobile');
-$video_hide_mobile = get_sub_field('f_vid_hide_mobile');
-$video_animation = get_sub_field('f_vid_animation');
-
-$video_open_style = get_sub_field('f_vid_open_style');
-$video_image_type = get_sub_field('f_vid_image_type');
-$video_image = get_sub_field('f_vid_image');
-$video_link = get_sub_field('f_vid_link');
-
-$video_display = get_sub_field('f_vid_display');
-
-$video_title = get_sub_field('f_vid_title');
-$video_subtitle = get_sub_field('f_vid_subtitle');
-$video_title_size = get_sub_field('f_vid_title_size');
-$video_subtitle_size = get_sub_field('f_vid_subtitle_size');
-$video_title_color = get_sub_field('f_vid_title_color');
-$video_subtitle_color = get_sub_field('f_vid_subtitle_color');
-$video_title_a = get_sub_field('f_vid_title_a');
-
+$video_block_width = get_sub_field('fv_bW');
+$video_break = get_sub_field('fv_br');
+$video_block_align = get_sub_field('fv_bAl');
+$video_order = get_sub_field('fv_or');
+$video_mobile = get_sub_field('fv_mo');
+$video_hide_mobile = get_sub_field('fv_hMo');
+$video_animation = get_sub_field('fv_an');
+$video_display = get_sub_field('fv_dp');
+$video_open_style = get_sub_field('fv_oSt');
+$video_image_type = get_sub_field('fv_iTp');
+$video_image = get_sub_field('fv_i');
+$video_title = get_sub_field('fv_t');
+$video_title_size = get_sub_field('fv_tSz');
+$video_subtitle = get_sub_field('fv_st');
+$video_subtitle_size = get_sub_field('fv_stSz');
+$video_title_color = get_sub_field('fv_tCl');
+$video_subtitle_color = get_sub_field('fv_stCl');
+$video_title_a = get_sub_field('fv_tAl');
+$video_link = get_sub_field('fv_lk');
 
 if ( $video_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
@@ -46,7 +42,7 @@ if ( $video_hide_mobile && wp_is_mobile() ) {
 				
 			<?php if( $video_display == 'video-single' ):
 			//second false skip ACF pre-processcing
-			$youtube_vid_url = get_sub_field('f_vid_link', false, false);
+			$youtube_vid_url = get_sub_field('fv_lk', false, false);
 			//get wp_oEmed object, not a public method. new WP_oEmbed() would also be possible
 			$oembed = _wp_oembed_get_object();
 			//get provider
@@ -111,14 +107,13 @@ if ( $video_hide_mobile && wp_is_mobile() ) {
 			
 				<div class="swiper-container video_slider_container video_slider_<?php echo $count;?>">
 					<div class="video_slider_item_row swiper-wrapper">
-					<?php $vid_item = 1; while ( have_rows('f_vid_slider') ) : the_row();
-					$video_slider_img = get_sub_field('f_vid_slider_img');
-					$video_slider_title = get_sub_field('f_vid_slider_title');
-					$video_slider_title_color = get_sub_field('f_vid_slider_title_color');
-					$video_slider_link = get_sub_field('f_vid_slider_link');
-					
+					<?php $vid_item = 1; while ( have_rows('fv_vs') ) : the_row();
+					$video_slider_img = get_sub_field('fv_vsI');
+					$video_slider_title = get_sub_field('fv_vsT');
+					$video_slider_title_color = get_sub_field('fv_vsTc');
+					$video_slider_link = get_sub_field('fv_vsL');					
 					//second false skip ACF pre-processcing
-					$youtube_vid_url = get_sub_field('f_vid_slider_link', false, false);
+					$youtube_vid_url = get_sub_field('fv_vsL', false, false);
 					//get wp_oEmed object, not a public method. new WP_oEmbed() would also be possible
 					$oembed = _wp_oembed_get_object();
 					//get provider
