@@ -1,28 +1,28 @@
 <?php 
-$testimonial_slider_block_width = get_sub_field('tes_slider_block_width');
-$testimonial_slider_order = get_sub_field('tes_slider_order');
-$testimonial_slider_mobile = get_sub_field('tes_slider_mobile');
-$testimonial_slider_hide_mobile = get_sub_field('tes_slider_hide_mobile');
-$testimonial_slider_break = get_sub_field('tes_slider_break');
-$testimonial_slider_block_align = get_sub_field('tes_slider_block_align');
-$testimonial_slider_animation = get_sub_field('tes_slider_animation');
+$testimonial_slider_block_width = get_sub_field('tes_bW');
+$testimonial_slider_order = get_sub_field('tes_or');
+$testimonial_slider_mobile = get_sub_field('tes_mo');
+$testimonial_slider_hide_mobile = get_sub_field('tes_hMo');
+$testimonial_slider_break = get_sub_field('tes_br');
+$testimonial_slider_block_align = get_sub_field('tes_bAl');
+$testimonial_slider_animation = get_sub_field('tes_an');
 
-$testimonial_slider = get_sub_field('tes_slider');
-$testimonial_slider_style = get_sub_field('tes_slider_style');
-$testimonial_slider_count = get_sub_field('tes_slider_count');
+$testimonial_slider = get_sub_field('tes_s');
+$testimonial_slider_style = get_sub_field('tes_sy');
+$testimonial_slider_count = get_sub_field('tes_cu');
 
-$testimonial_slider_title_color = get_sub_field('tes_slider_title_color');
-$testimonial_slider_content_color = get_sub_field('tes_slider_content_color');
-$testimonial_slider_name_color = get_sub_field('tes_slider_name_color');
-$testimonial_slider_cut = get_sub_field('tes_slider_cut');
+$testimonial_slider_title_color = get_sub_field('tes_Tcl');
+$testimonial_slider_content_color = get_sub_field('tes_Ccl');
+$testimonial_slider_name_color = get_sub_field('tes_nCl');
+$testimonial_slider_cut = get_sub_field('tes_ct');
 
-$testimonial_slider_title = get_sub_field('tes_slider_main_title');
-$testimonial_slider_title_size = get_sub_field('tes_slider_main_title_size');
-$testimonial_slider_title_color = get_sub_field('tes_slider_main_title_color');
-$testimonial_slider_title_align = get_sub_field('tes_slider_main_title_align');
-$testimonial_slider_subtitle = get_sub_field('tes_slider_main_subtitle');
-$testimonial_slider_subtitle_size = get_sub_field('tes_slider_main_subtitle_size');
-$testimonial_slider_subtitle_color = get_sub_field('tes_slider_main_subtitle_color');
+$testimonial_slider_title = get_sub_field('tes_t');
+$testimonial_slider_title_size = get_sub_field('tes_tSz');
+$testimonial_slider_title_color = get_sub_field('tes_tCl');
+$testimonial_slider_title_align = get_sub_field('tes_tAl');
+$testimonial_slider_subtitle = get_sub_field('tes_st');
+$testimonial_slider_subtitle_size = get_sub_field('tes_stS');
+$testimonial_slider_subtitle_color = get_sub_field('tes_stC');
 
 if ( $testimonial_slider_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
@@ -51,13 +51,13 @@ if ( $testimonial_slider_hide_mobile && wp_is_mobile() ) {
 		
 						    <div class="testimonial_slider_<?php echo $row;?>_<?php echo $count;?>">
 								<div class="testimonial_slider_items home_qa_items swiper-container">
-								<?php if( have_rows('tes_slider') ): ?>
+								<?php if( have_rows('tes_s') ): ?>
 									<div class="testimonial_slider_item_wrap home_qa_item_wrap swiper-wrapper">
-									<?php while( have_rows('tes_slider') ): the_row(); 
-										$testimonial_slider_title = get_sub_field('tes_slider_title');
-										$testimonial_slider_content = get_sub_field('tes_slider_content');
-										$testimonial_slider_img = get_sub_field('tes_slider_img');
-										$testimonial_slider_name = get_sub_field('tes_slider_name');
+									<?php while( have_rows('tes_s') ): the_row(); 
+										$testimonial_slider_title = get_sub_field('tes_sT');
+										$testimonial_slider_content = get_sub_field('tes_sC');
+										$testimonial_slider_img = get_sub_field('tes_sI');
+										$testimonial_slider_name = get_sub_field('tes_sN');
 										?>
 										<?php if( $testimonial_slider_style == 'style1' ){ ?>
 																		
