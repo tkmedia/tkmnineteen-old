@@ -1,21 +1,21 @@
-<?php 
-$full_form_block_width = get_sub_field('f_form_block_width');
-$full_form_mobile = get_sub_field('f_form_mobile');
-$full_form_hide_mobile = get_sub_field('f_form_hide_mobile');
-$full_form_order = get_sub_field('f_form_order');
-$full_form_break = get_sub_field('f_form_break');
-$full_form_block_align = get_sub_field('f_form_block_align');
+<?php
+$full_form_block_width = get_sub_field('ff_bW');
+$full_form_mobile = get_sub_field('ff_mo');
+$full_form_hide_mobile = get_sub_field('ff_hMo');
+$full_form_order = get_sub_field('ff_or');
+$full_form_break = get_sub_field('ff_br');
+$full_form_block_align = get_sub_field('ff_bAl');
 
 $default_flex_form_title =  get_field('default_flex_form_title', 'option');
 $default_flex_form_subtitle =  get_field('default_flex_form_subtitle', 'option');
 
-$full_form_title = get_sub_field('f_form_title');
-$full_form_subtitle = get_sub_field('f_form_subtitle');
-$full_form_id = get_sub_field('f_form_id');
-$full_form_color = get_sub_field('f_form_color');
+$full_form_title = get_sub_field('ff_t');
+$full_form_subtitle = get_sub_field('ff_st');
+$full_form_id = get_sub_field('ff_id');
+$full_form_color = get_sub_field('ff_cl');
 $full_form_layout = get_sub_field('f_form_layout');
-$full_form_hide_title = get_sub_field('f_form_hide_title');
-$full_form_animation = get_sub_field('f_form_animation');
+$full_form_hide_title = get_sub_field('ff_hT');
+$full_form_animation = get_sub_field('ff_an');
 
 if ( $full_form_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
