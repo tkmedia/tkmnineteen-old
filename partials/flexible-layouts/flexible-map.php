@@ -1,14 +1,14 @@
 <?php 
-$map_block_width = get_sub_field('map_block_width');
-$map_order = get_sub_field('map_order');
-$map_mobile = get_sub_field('map_mobile');
-$map_hide_mobile = get_sub_field('map_hide_mobile');
-$map_break = get_sub_field('map_break');
-$map_block_align = get_sub_field('map_block_align');
+$map_block_width = get_sub_field('mp_bW');
+$map_order = get_sub_field('mp_or');
+$map_mobile = get_sub_field('mp_mo');
+$map_hide_mobile = get_sub_field('mp_hMo');
+$map_break = get_sub_field('mp_br');
+$map_block_align = get_sub_field('mp_bAl');
 
-$map = get_sub_field('map');
-$map_name = get_sub_field('map_name');
-$map_animation = get_sub_field('map_animation');
+$map = get_sub_field('mp_ma');
+$map_name = get_sub_field('mp_na');
+$map_animation = get_sub_field('mp_an');
 
 if ( $map_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
