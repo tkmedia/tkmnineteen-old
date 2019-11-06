@@ -6,7 +6,7 @@ $artcile_slider_order = get_sub_field('ps_or');
 $artcile_slider_break = get_sub_field('ps_br');
 $artcile_slider_block_align = get_sub_field('ps_bAl');
 
-$flex_article_slider_title = get_sub_field('art_slider_title');
+//$flex_article_slider_title = get_sub_field('art_slider_title');
 $flex_article_slider = get_sub_field('ps_S');
 $article_slider_count = get_sub_field('ps_cu');
 $article_slider_style = get_sub_field('ps_sy');
