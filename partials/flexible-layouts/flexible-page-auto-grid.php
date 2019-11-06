@@ -1,28 +1,27 @@
 <?php 
-$article_auto_grid_block_width = get_sub_field('art_agrid_block_width');
-$article_auto_grid_order = get_sub_field('art_agrid_order');
-$article_auto_grid_mobile = get_sub_field('art_agrid_mobile');
-$article_auto_grid_hide_mobile = get_sub_field('art_agrid_hide_mobile');
-$article_auto_grid_break = get_sub_field('art_agrid_break');
-$article_auto_grid_block_align = get_sub_field('art_agrid_block_align');
-$article_auto_grid_animation = get_sub_field('art_agrid_animation');
+$article_auto_grid_block_width = get_sub_field('aag_bW');
+$article_auto_grid_break = get_sub_field('aag_br');
+$article_auto_grid_block_align = get_sub_field('agg_bA');
+$article_auto_grid_order = get_sub_field('aag_or');
+$article_auto_grid_mobile = get_sub_field('aag_mo');
+$article_auto_grid_hide_mobile = get_sub_field('aag_hMo');
+$article_auto_grid_animation = get_sub_field('aag_an');
 
-$article_auto_grid_title_position = get_sub_field('art_agrid_title_position');
-$article_auto_grid_title_size = get_sub_field('art_agrid_title_size');
-$article_auto_grid_title_align = get_sub_field('art_agrid_title_align');
-$article_auto_grid_title_color = get_sub_field('art_agrid_title_color');
-$article_auto_grid_style = get_sub_field('art_agrid_style');
-
-$article_auto_grid_source = get_sub_field('art_agrid_source');
-$article_auto_grid_perpage = get_sub_field('art_agrid_perpage');
-$grid_show_subtitle = get_sub_field('art_agrid_show_subtitle');
-$grid_show_info = get_sub_field('art_agrid_show_info');
-$grid_excerpt_length = get_sub_field('art_agrid_excerpt_length');
+$article_auto_grid_source = get_sub_field('aag_sr');
+$article_auto_grid_style = get_sub_field('aag_sy');
+$article_auto_grid_title_position = get_sub_field('aag_tPo');
+$article_auto_grid_title_size = get_sub_field('aag_tSz');
+$article_auto_grid_title_align = get_sub_field('aag_tA');
+$article_auto_grid_title_color = get_sub_field('aag_tCl');
+$article_auto_grid_count = get_sub_field('aag_cu');
+$article_auto_grid_img_effect = get_sub_field('aag_imE');
+$article_auto_grid_img = get_sub_field('aag_im');
+$article_auto_grid_perpage = get_sub_field('aag_pp');
+$grid_show_subtitle = get_sub_field('aag_sSt');
+$grid_show_info = get_sub_field('aag_sIn');
+$grid_excerpt_length = get_sub_field('aag_exL');
 $flex_article_auto_grid = get_sub_field('art_agrid');
-$article_auto_grid_count = get_sub_field('art_agrid_count');
-$article_auto_grid_img = get_sub_field('art_agrid_img');
-$article_auto_grid_img_effect = get_sub_field('art_agrid_img_effect');
-$article_auto_grid_img_size = get_sub_field('art_agrid_img_size');
+$article_auto_grid_img_size = get_sub_field('aag_inSz');
 
 
 if ( $article_auto_grid_count == 1 ) : $ag_xs_cols = "12"; $ag_sm_cols = "12"; $ag_md_cols = "12"; 
@@ -100,7 +99,7 @@ if ( $article_auto_grid_hide_mobile && wp_is_mobile() ) {
 					<?php if( $article_auto_grid_style == 'style1' ){ ?>    
 						<div class="articles_grid_item_container title_<?php echo $article_auto_grid_title_position;?>">
 							<div class="articles_grid_item_img box_effect">
-								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmnineteen' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
+								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmulti' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
 									
 								<?php if( $article_auto_grid_title_position == 'top' ): ?>
 								<div class="page_link_grid_item_title_wrap">
@@ -193,7 +192,7 @@ if ( $article_auto_grid_hide_mobile && wp_is_mobile() ) {
 					<?php } elseif( $article_auto_grid_style == 'style2' ){ ?>	
 						<div class="articles_grid_item_container title_<?php echo $article_auto_grid_title_align;?>">
 							<div class="articles_grid_item_container_wrap">
-								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmnineteen' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
+								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmulti' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
 									<div class="articles_grid_item_row row-flex">
 										<div class="articles_grid_item_img col-xs-12 col-sm-6 col-md-4 col-lg-3">
 											<?php echo the_post_thumbnail($article_auto_grid_img_size); ?>
@@ -225,7 +224,7 @@ if ( $article_auto_grid_hide_mobile && wp_is_mobile() ) {
 					<?php } elseif( $article_auto_grid_style == 'style3' ){ ?>		
 						<div class="articles_grid_item_container title_inside">
 							<div class="articles_grid_item_img box_effect">
-								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmnineteen' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
+								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmulti' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
 									
 								<div class="page_link_grid_item_img">
 									<?php if( $article_auto_grid_img == 'main_img' ): ?>
