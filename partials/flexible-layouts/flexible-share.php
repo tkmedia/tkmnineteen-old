@@ -1,53 +1,53 @@
 <?php 
-$share_block_width = get_sub_field('share_block_width');
-$share_mobile_cols = get_sub_field('share_mobile');
-$share_hide_mobile = get_sub_field('share_hide_mobile');
-$share_order = get_sub_field('share_order');
-$share_break = get_sub_field('share_break');
-$share_block_align = get_sub_field('share_block_align');
-$share_animation = get_sub_field('share_animation');
+$share_block_width = get_sub_field('sh_bW');
+$share_mobile_cols = get_sub_field('sh_mo');
+$share_hide_mobile = get_sub_field('sh_hMo');
+$share_order = get_sub_field('sh_or');
+$share_break = get_sub_field('sh_br');
+$share_block_align = get_sub_field('sh_bAl');
+$share_animation = get_sub_field('sh_an');
 
-	$share_title_show = get_sub_field( 'share_title_show' );
-	$share_title_position = get_sub_field( 'share_title_position' );
-	$share_title = get_sub_field( 'share_title' );
-	$share_subtitle = get_sub_field( 'share_subtitle' );
-	$share_type = get_sub_field( 'share_type' );
-	$share_select = get_sub_field( 'share_select' );
-	$share_contact = get_sub_field( 'share_contact' );
-	$share_layout = get_sub_field( 'share_layout' );
-	
-	$whatsapp_show = get_sub_field( 'share_whatsapp_show' );
-	$email_show = get_sub_field( 'share_email_show' );
-	$cellphone_show = get_sub_field( 'share_cellphone_show' );
-	$messanger_show = get_sub_field( 'share_messanger_show' );
-	$phone_show = get_sub_field( 'share_phone_show' );
-	$facebook_show = get_sub_field( 'share_facebook_show' );
+$share_title_show = get_sub_field( 'sh_tS' );
+$share_title_position = get_sub_field( 'sh_tP' );
+$share_title = get_sub_field( 'sh_T' );
+$share_subtitle = get_sub_field( 'sh_st' );
+$share_type = get_sub_field( 'sh_ty' );
+//$share_select = get_sub_field( 'share_select' );
+//$share_contact = get_sub_field( 'share_contact' );
+//$share_layout = get_sub_field( 'share_layout' );
 
-	$s_twitter = get_sub_field( 'f_s_twitter_show' );
-	$s_facebook = get_sub_field( 'f_s_facebook_show' );
-	$s_whatsapp = get_sub_field( 'f_s_whatsapp_show' );
-	$s_email = get_sub_field( 'f_s_email_show' );
-	$s_pinterest = get_sub_field( 'f_s_pinterest_show' );
-	$s_messenger = get_sub_field( 'f_s_messenger_show' );
-						
-	$site_phone = get_field('header_phone','option');
-	$phone_title = get_field('site_phone_title','option');
-	$whatsapp_num = get_field('site_whatsapp_num','option');
-	$whatsapp_text = get_field('site_whatsapp_text','option');
-	$main_email = get_field('site_main_email','option');
-	$email_text = get_field('site_main_email_text','option');
-	$main_cellphone = get_field('site_main_cellphone','option');
-	$cellphone_text = get_field('site_main_cellphone_text','option');
-	$site_messanger = get_field('site_messanger','option');
-	$messanger_text = get_field('site_messanger_text','option');
-	$site_facebook = get_field('site_facebook','option');
-	$facebook_text = get_field('site_facebook_text','option');							
+$whatsapp_show = get_sub_field( 'sh_wS' );
+$email_show = get_sub_field( 'sh_eS' );
+$cellphone_show = get_sub_field( 'sh_cS' );
+$messanger_show = get_sub_field( 'sh_mS' );
+$phone_show = get_sub_field( 'sh_pS' );
+$facebook_show = get_sub_field( 'sh_fS' );
 
-	$twitter_share = get_field('site_twitter_share','option');
-	$facebook_share = get_field('site_facebook_share','option');
-	$whatsapp_share = get_field('site_whatsapp_share','option');
-	$email_share = get_field('site_email_share','option');
-	$default_form_popup = get_field('default_form_popup','option');
+$s_twitter = get_sub_field( 'sh_tS' );
+$s_facebook = get_sub_field( 'sh_FS' );
+$s_whatsapp = get_sub_field( 'sh_WS' );
+$s_email = get_sub_field( 'sh_ES' );
+$s_pinterest = get_sub_field( 'sh_PS' );
+$s_messenger = get_sub_field( 'sh_MS' );
+					
+$site_phone = get_field('header_phone','option');
+$phone_title = get_field('site_phone_title','option');
+$whatsapp_num = get_field('site_whatsapp_num','option');
+$whatsapp_text = get_field('site_whatsapp_text','option');
+$main_email = get_field('site_main_email','option');
+$email_text = get_field('site_main_email_text','option');
+$main_cellphone = get_field('site_main_cellphone','option');
+$cellphone_text = get_field('site_main_cellphone_text','option');
+$site_messanger = get_field('site_messanger','option');
+$messanger_text = get_field('site_messanger_text','option');
+$site_facebook = get_field('site_facebook','option');
+$facebook_text = get_field('site_facebook_text','option');							
+
+$twitter_share = get_field('site_twitter_share','option');
+$facebook_share = get_field('site_facebook_share','option');
+$whatsapp_share = get_field('site_whatsapp_share','option');
+$email_share = get_field('site_email_share','option');
+$default_form_popup = get_field('default_form_popup','option');
 					
 if ( $share_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
