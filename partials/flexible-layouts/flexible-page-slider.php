@@ -1,30 +1,30 @@
 <?php 
-$artcile_slider_block_width = get_sub_field('art_slider_block_width');
-$artcile_slider_mobile = get_sub_field('art_slider_mobile');
-$artcile_slider_hide_mobile = get_sub_field('art_slider_hide_mobile');
-$artcile_slider_order = get_sub_field('art_slider_order');
-$artcile_slider_break = get_sub_field('art_slider_break');
-$artcile_slider_block_align = get_sub_field('art_slider_block_align');
+$artcile_slider_block_width = get_sub_field('ps_bW');
+$artcile_slider_mobile = get_sub_field('ps_mo');
+$artcile_slider_hide_mobile = get_sub_field('ps_hMo');
+$artcile_slider_order = get_sub_field('ps_or');
+$artcile_slider_break = get_sub_field('ps_br');
+$artcile_slider_block_align = get_sub_field('ps_bAl');
 
 $flex_article_slider_title = get_sub_field('art_slider_title');
-$flex_article_slider = get_sub_field('art_slider');
-$article_slider_count = get_sub_field('art_slider_count');
-$article_slider_style = get_sub_field('art_slider_style');
-$article_slider_img = get_sub_field('art_slider_img');
-$artcile_slider_show_excerpt = get_sub_field('art_slider_show_excerpt');
+$flex_article_slider = get_sub_field('ps_S');
+$article_slider_count = get_sub_field('ps_cu');
+$article_slider_style = get_sub_field('ps_sy');
+$article_slider_img = get_sub_field('ps_im');
+$artcile_slider_show_excerpt = get_sub_field('ps_sEx');
 
-$artcile_slider_title_align = get_sub_field('art_slider_title_align');
-$artcile_slider_title_color = get_sub_field('art_slider_title_color');
-$artcile_slider_title_size = get_sub_field('art_slider_title_size');
-$artcile_slider_button_color = get_sub_field('art_slider_button_color');
-$artcile_slider_title_icon = get_sub_field('art_slider_title_icon');
-$article_slider_title_position = get_sub_field('art_slider_title_position');
+$artcile_slider_title_align = get_sub_field('ps_tAl');
+$artcile_slider_title_color = get_sub_field('ps_tCl');
+$artcile_slider_title_size = get_sub_field('ps_tSz');
+$artcile_slider_button_color = get_sub_field('ps_btC');
+$artcile_slider_title_icon = get_sub_field('ps_tIc');
+$article_slider_title_position = get_sub_field('ps_tPo');
 
-$article_slider_source = get_sub_field('art_slider_source');
-$article_slider_latest = get_sub_field('art_slider_latest');
-$article_slider_animation = get_sub_field('art_slider_animation');
-$article_slider_img_size = get_sub_field('art_slider_img_size');
-$article_slider_hide_date = get_sub_field('art_slider_hide_date');
+$article_slider_source = get_sub_field('ps_srs');
+$article_slider_latest = get_sub_field('ps_lt');
+$article_slider_animation = get_sub_field('ps_an');
+$article_slider_img_size = get_sub_field('ps_iSz');
+$article_slider_hide_date = get_sub_field('ps_hDa');
 
 if ( $artcile_slider_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
