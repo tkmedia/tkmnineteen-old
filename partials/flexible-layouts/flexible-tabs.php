@@ -1,18 +1,18 @@
 <?php 
-$tabs_block_width = get_sub_field('tabs_block_width');
-$tabs_order = get_sub_field('tabs_order');
-$tabs_mobile = get_sub_field('tabs_mobile');
-$tabs_hide_mobile = get_sub_field('tabs_hide_mobile');
-$tabs_break = get_sub_field('tabs_break');
-$tabs_block_align = get_sub_field('tabs_block_align');
+$tabs_block_width = get_sub_field('tb_bW');
+$tabs_order = get_sub_field('tb_or');
+$tabs_mobile = get_sub_field('tb_mo');
+$tabs_hide_mobile = get_sub_field('tb_hMo');
+$tabs_break = get_sub_field('tb_br');
+$tabs_block_align = get_sub_field('tb_bAl');
 
-$tabs_title = get_sub_field('tabs_title');
-$tabs_subtitle = get_sub_field('tabs_subtitle');
-$tabs_style = get_sub_field('tabs_style');
+$tabs_title = get_sub_field('tb_t');
+//$tabs_subtitle = get_sub_field('tabs_subtitle');
+$tabs_style = get_sub_field('tb_sy');
 $tabs_title_a = get_sub_field('tabs_title_a');
-$tabs_icon = get_sub_field('tabs_icon');
-$tabs = get_sub_field('tabs');
-$tabs_animation = get_sub_field('tabs_animation');
+$tabs_icon = get_sub_field('tb_ic');
+$tabs = get_sub_field('tb_r');
+$tabs_animation = get_sub_field('tb_an');
 
 if ( $tabs_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
@@ -34,14 +34,14 @@ if ( $tabs_hide_mobile && wp_is_mobile() ) {
 
 					<!-- Begin .qa_tabs -->
 					<div class="VerticalTab fc_VerticalTab VerticalTab_1 tabs_ver_1 row-flex">
-					<?php if( have_rows('tabs') ): ?>
+					<?php if( have_rows('tb_r') ): ?>
 						<ul class="resp-tabs-list hor_1 col-sm-4 col-lg-3">
-						<?php $i = 1; while( have_rows('tabs') ): the_row(); 
+						<?php $i = 1; while( have_rows('tb_r') ): the_row(); 
 							// vars
-							$tabs_button_title = get_sub_field('tabs_button_title');
-							$tabs_button_title_color = get_sub_field('tabs_button_title_color');
-							$tabs_button_subtitle = get_sub_field('tabs_button_subtitle');
-							$tabs_button_subtitle_color = get_sub_field('tabs_button_subtitle_color');
+							$tabs_button_title = get_sub_field('tb_btT');
+							$tabs_button_title_color = get_sub_field('tb_btTc');
+							$tabs_button_subtitle = get_sub_field('tb_btSt');
+							$tabs_button_subtitle_color = get_sub_field('tb_btSc');
 							?>								
 							<li class="tabs-<?php echo $i; ?>">
 								<span class="tabs-text">
@@ -54,16 +54,16 @@ if ( $tabs_hide_mobile && wp_is_mobile() ) {
 						<?php $i++;endwhile; ?>
 						</ul>
 						<?php endif; ?>
-						<?php if( have_rows('tabs') ): ?>	
+						<?php if( have_rows('tb_r') ): ?>	
 						<div class="resp-tabs-container hor_1 col-sm-8 col-lg-9">
-						<?php $i = 1; while( have_rows('tabs') ): the_row();
+						<?php $i = 1; while( have_rows('tb_r') ): the_row();
 							// vars
-							$tabs_content_bg = get_sub_field('tabs_content_bg');
-							$tabs_content_title = get_sub_field('tabs_content_title');
-							$tabs_content_color = get_sub_field('tabs_content_color');
-							$tabs_content = get_sub_field('tabs_content');
-							$tabs_content_btn = get_sub_field('tabs_content_btn');
-							$tabs_content_btn_link = get_sub_field('tabs_content_btn_link');
+							$tabs_content_bg = get_sub_field('tb_cBg');
+							$tabs_content_title = get_sub_field('tb_cT');
+							$tabs_content_color = get_sub_field('tb_cC');
+							$tabs_content = get_sub_field('tb_c');
+							$tabs_content_btn = get_sub_field('tb_cBt');
+							$tabs_content_btn_link = get_sub_field('tb_cBtL');
 							?>								
 							<div class="tabcontent fc-tab-<?php echo $i; ?>">
 								<div class="tabcontent_contanier">
