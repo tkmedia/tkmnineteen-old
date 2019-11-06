@@ -1,28 +1,28 @@
 <?php 
-$article_grid_block_width = get_sub_field('art_grid_block_width');
-$article_grid_order = get_sub_field('art_grid_order');
-$article_grid_mobile = get_sub_field('art_grid_mobile');
-$article_grid_hide_mobile = get_sub_field('art_grid_hide_mobile');
-$article_grid_break = get_sub_field('art_grid_break');
-$article_grid_block_align = get_sub_field('art_grid_block_align');
-$article_grid_animation = get_sub_field('art_grid_animation');
+$article_grid_block_width = get_sub_field('pag_bW');
+$article_grid_order = get_sub_field('pag_or');
+$article_grid_mobile = get_sub_field('pag_mo');
+$article_grid_hide_mobile = get_sub_field('pag_hMo');
+$article_grid_break = get_sub_field('pag_br');
+$article_grid_block_align = get_sub_field('pag_bA');
+$article_grid_animation = get_sub_field('pag_an');
 
-$article_grid_title_position = get_sub_field('art_grid_title_position');
-$artcile_grid_title_size = get_sub_field('art_grid_title_size');
-$artcile_grid_title_align = get_sub_field('art_grid_title_align');
-$artcile_grid_title_color = get_sub_field('art_grid_title_color');
-$article_grid_style = get_sub_field('art_grid_style');
+$article_grid_title_position = get_sub_field('pag_tPo');
+$artcile_grid_title_size = get_sub_field('pag_tSz');
+$artcile_grid_title_align = get_sub_field('pag_tAl');
+$artcile_grid_title_color = get_sub_field('pag_tCl');
+$article_grid_style = get_sub_field('pag_sy');
 
-$flex_article_grid_paginate = get_sub_field('art_grid_paginate');
-$flex_article_grid_perpage = get_sub_field('art_grid_perpage');
-$grid_show_info = get_sub_field('art_grid_show_info');
-$grid_show_subtitle = get_sub_field('art_grid_show_subtitle');
-$grid_excerpt_length = get_sub_field('art_grid_excerpt_length');
-$flex_article_grid = get_sub_field('art_grid');
-$article_grid_count = get_sub_field('art_grid_count');
-$article_grid_img = get_sub_field('art_grid_img');
-$article_grid_img_effect = get_sub_field('art_grid_img_effect');
-$article_grid_img_size = get_sub_field('art_grid_img_size');
+$flex_article_grid_paginate = get_sub_field('pag_pg');
+$flex_article_grid_perpage = get_sub_field('pag_pp');
+$grid_show_info = get_sub_field('pag_sIn');
+$grid_show_subtitle = get_sub_field('pag_sSt');
+$grid_excerpt_length = get_sub_field('pag_exL');
+$flex_article_grid = get_sub_field('pag_gp');
+$article_grid_count = get_sub_field('pag_cu');
+$article_grid_img = get_sub_field('pag_im');
+$article_grid_img_effect = get_sub_field('pag_imE');
+$article_grid_img_size = get_sub_field('pag_imSz');
 
 
 if ( $article_grid_count == 1 ) : $ag_xs_cols = "12"; $ag_sm_cols = "12"; $ag_md_cols = "12"; 
@@ -56,7 +56,7 @@ if ( $article_grid_hide_mobile && wp_is_mobile() ) {
 					<?php if( $article_grid_style == 'style1' ){ ?>    
 						<div class="articles_grid_item_container title_<?php echo $article_grid_title_position;?>">
 							<div class="articles_grid_item_img box_effect">
-								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmnineteen' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
+								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmulti' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
 									
 								<?php if( $article_grid_title_position == 'top' ): ?>
 								<div class="page_link_grid_item_title_wrap">
@@ -149,7 +149,7 @@ if ( $article_grid_hide_mobile && wp_is_mobile() ) {
 					<?php } elseif( $article_grid_style == 'style2' ){ ?>	
 						<div class="articles_grid_item_container title_<?php echo $artcile_grid_title_align;?>">
 							<div class="articles_grid_item_container_wrap">
-								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmnineteen' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
+								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmulti' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
 									<div class="articles_grid_item_row row-flex">
 										<div class="articles_grid_item_img col-xs-12 col-sm-6 col-md-4 col-lg-3">
 											<?php echo the_post_thumbnail($article_grid_img_size); ?>
@@ -181,7 +181,7 @@ if ( $article_grid_hide_mobile && wp_is_mobile() ) {
 					<?php } elseif( $article_grid_style == 'style3' ){ ?>		
 						<div class="articles_grid_item_container title_inside">
 							<div class="articles_grid_item_img box_effect">
-								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmnineteen' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
+								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmulti' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
 									
 								<div class="page_link_grid_item_img">
 									<?php if( $article_grid_img == 'main_img' ): ?>
@@ -271,7 +271,7 @@ if ( $article_grid_hide_mobile && wp_is_mobile() ) {
 				    <div class="page_link_grid_item articles_grid_item item-<?php echo $item;?> col-xs-<?= $ag_xs_cols; ?> col-sm-<?= $ag_sm_cols; ?> col-md-<?= $ag_md_cols; ?>">
 						<div class="articles_grid_item_container">
 							<div class="articles_grid_item_img box_effect">
-								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmnineteen' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
+								<a class="page-article-link" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( _e( 'Link to page %s', 'tkmulti' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark">
 									
 								<?php if( $article_grid_title_position == 'top' ): ?>
 								<div class="page_link_grid_item_title_wrap">
@@ -371,11 +371,11 @@ if ( $article_grid_hide_mobile && wp_is_mobile() ) {
 					<span class="loader-ellips__dot"></span>
 					<span class="loader-ellips__dot"></span>
 				</div>
-				<p class="infinite-scroll-last"><?php _e('End content', 'tkmnineteen'); ?></p>
-				<p class="infinite-scroll-error"><?php _e('No more to load', 'tkmnineteen'); ?></p>
+				<p class="infinite-scroll-last"><?php _e('End content', 'tkmulti'); ?></p>
+				<p class="infinite-scroll-error"><?php _e('No more to load', 'tkmulti'); ?></p>
 			</div>
 			<div class="pagination-button dark">
-			<button class="load-next-button section_readmore_link watch_btn hoverLink style3"><?php _e('Show more', 'tkmnineteen'); ?></button>
+			<button class="load-next-button section_readmore_link watch_btn hoverLink style3"><?php _e('Show more', 'tkmulti'); ?></button>
 			</div>					
 			<div class="pagination">
 				<a class="pagination__next" href="<?php echo get_permalink() . '/2'?>"></a>
