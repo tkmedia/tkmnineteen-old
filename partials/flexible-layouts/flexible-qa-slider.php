@@ -1,20 +1,20 @@
 <?php 
-$qa_slider_block_width = get_sub_field('qa_slider_block_width');
-$qa_slider_order = get_sub_field('qa_slider_order');
-$qa_slider_mobile = get_sub_field('qa_slider_mobile');
-$qa_slider_hide_mobile = get_sub_field('qa_slider_hide_mobile');
-$qa_slider_break = get_sub_field('qa_slider_break');
-$qa_slider_block_align = get_sub_field('qa_slider_block_align');
+$qa_slider_block_width = get_sub_field('qas_bW');
+$qa_slider_order = get_sub_field('qas_or');
+$qa_slider_mobile = get_sub_field('qas_mo');
+$qa_slider_hide_mobile = get_sub_field('qas_hMo');
+$qa_slider_break = get_sub_field('qas_br');
+$qa_slider_block_align = get_sub_field('qas_bAl');
 
-$qa_slider_qa = get_sub_field('qa_slider');
-$qa_slider_title = get_sub_field('qa_slider_title');
-$qa_slider_subtitle = get_sub_field('qa_slider_subtitle');
-$qa_slider_page_btn = get_sub_field('qa_slider_page_btn');
-$qa_slider_page_link = get_sub_field('qa_slider_page_link');
-$qa_slider_form_btn = get_sub_field('qa_slider_form_btn');
-$qa_slider_form_link = get_sub_field('qa_slider_form_link');
-$qa_slider_form_btn_link = get_sub_field('qa_slider_form_btn_link');
-$qa_slider_animation = get_sub_field('qa_slider_animation');
+$qa_slider_qa = get_sub_field('qas_s');
+$qa_slider_title = get_sub_field('qas_t');
+$qa_slider_subtitle = get_sub_field('qas_st');
+$qa_slider_page_btn = get_sub_field('qas_pBt');
+$qa_slider_page_link = get_sub_field('qas_pL');
+$qa_slider_form_btn = get_sub_field('qas_bt');
+//$qa_slider_form_link = get_sub_field('qa_slider_form_link');
+$qa_slider_form_btn_link = get_sub_field('qas_btL');
+$qa_slider_animation = get_sub_field('qas_an');
 
 if ( $qa_slider_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
@@ -39,22 +39,22 @@ if ( $qa_slider_hide_mobile && wp_is_mobile() ) {
 							
 						    <div class="qa_slider_<?php echo $row;?>_<?php echo $count;?>">
 								<div class="qa_slider_items home_qa_items swiper-container">
-								<?php if( have_rows('qa_slider') ): ?>
+								<?php if( have_rows('qas_s') ): ?>
 									<div class="qa_slider_item_wrap home_qa_item_wrap swiper-wrapper">
-									<?php while( have_rows('qa_slider') ): the_row(); 
-										$qa_slider_question = get_sub_field('qa_slider_question');
-										$qa_slider_answer = get_sub_field('qa_slider_answer');
+									<?php while( have_rows('qas_s') ): the_row(); 
+										$qa_slider_question = get_sub_field('qas_sQ');
+										$qa_slider_answer = get_sub_field('qas_sA');
 										?>								
 										<div class="qa_slider_item home_qa_item swiper-slide">
 											<div class="qa_slider_question">
 												<div class="question_pre qa_slider_pre">
-													<span><?php _e('Question', 'tkmnineteen'); ?></span>
+													<span><?php _e('Question', 'tkmulti'); ?></span>
 												</div>
 												<div class="question"><?php echo $qa_slider_question; ?></div>
 											</div>
 											<div class="qa_slider_answer">
 												<div class="answer_pre qa_slider_pre">
-													<span><?php _e('Answer', 'tkmnineteen'); ?></span>
+													<span><?php _e('Answer', 'tkmulti'); ?></span>
 												</div>
 												<div class="answer"><?php echo $qa_slider_answer; ?></div>
 											</div>
