@@ -67,7 +67,7 @@ if ( $bulletin_list_hide_mobile && wp_is_mobile() ) {
 						$bulletin_list_title_color = get_sub_field('bl_lTc');
 						$bulletin_list_title_size = get_sub_field('bl_lTs');
 						$bulletin_list_text = get_sub_field('bl_lTx');
-						$bulletin_list_text_color = get_sub_field('bl_lTc');
+						$bulletin_list_text_color = get_sub_field('bl_lTxc');
 						$bulletin_list_text_size = get_sub_field('bl_lTsz');
 						$bulletin_list_icon_img_bw = get_sub_field('bl_lIb');
 						
@@ -206,7 +206,7 @@ if ( $bulletin_list_hide_mobile && wp_is_mobile() ) {
 						$bulletin_list_title_color = get_sub_field('bl_lTc');
 						$bulletin_list_title_size = get_sub_field('bl_lTs');
 						$bulletin_list_text = get_sub_field('bl_lTx');
-						$bulletin_list_text_color = get_sub_field('bl_lTc');
+						$bulletin_list_text_color = get_sub_field('bl_lTxc');
 						$bulletin_list_text_size = get_sub_field('bl_lTsz');
 						$bulletin_list_icon_img_bw = get_sub_field('bl_lIb');
 						
