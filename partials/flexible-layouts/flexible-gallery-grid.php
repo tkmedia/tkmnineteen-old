@@ -1,24 +1,24 @@
 <?php 
-$gallery_grid_block_width = get_sub_field('img_grid_block_width');
-$gallery_grid_order = get_sub_field('img_grid_order');
-$gallery_grid_mobile = get_sub_field('img_grid_mobile');
-$gallery_grid_hide_mobile = get_sub_field('img_grid_hide_mobile');
-$gallery_grid_break = get_sub_field('img_grid_break');
-$gallery_grid_block_align = get_sub_field('img_grid_block_align');
+$gallery_grid_block_width = get_sub_field('ig_bW');
+$gallery_grid_order = get_sub_field('ig_or');
+$gallery_grid_mobile = get_sub_field('ig_mo');
+$gallery_grid_hide_mobile = get_sub_field('ig_hMo');
+$gallery_grid_break = get_sub_field('ig_br');
+$gallery_grid_block_align = get_sub_field('ig_bAl');
 
-$content_gallery_grid = get_sub_field('img_grid_img');
-$content_gallery_grid_title = get_sub_field('img_grid_title');
-$content_gallery_grid_title_a = get_sub_field('img_grid_title_a');
-$content_gallery_grid_intro = get_sub_field('img_grid_intro');
-$content_gallery_grid_type = get_sub_field('img_grid_type');
-$gallery_cols = get_sub_field('img_grid_col');
-$gallery_cols_open = get_sub_field('img_grid_open');
-$show_more = get_sub_field('img_grid_title_show_more');
-$show_less = get_sub_field('img_grid_title_show_less');
+$content_gallery_grid = get_sub_field('ig_img');
+$content_gallery_grid_title = get_sub_field('ig_t');
+$content_gallery_grid_title_a = get_sub_field('ig_tAl');
+$content_gallery_grid_intro = get_sub_field('ig_in');
+$content_gallery_grid_type = get_sub_field('ig_ty');
+$gallery_cols = get_sub_field('ig_col');
+$gallery_cols_open = get_sub_field('ig_op');
+$show_more = get_sub_field('ig_tSm');
+$show_less = get_sub_field('ig_tSl');
 $size = 'product-500c'; // (thumbnail, medium, large, full or custom size)
 $m_size = 'inside-post';
-$gallery_grid_btn_color = get_sub_field('img_grid_btn_color');
-$gallery_grid_animation = get_sub_field('img_grid_animation');
+$gallery_grid_btn_color = get_sub_field('ig_btC');
+$gallery_grid_animation = get_sub_field('ig_an');
 
 if ( $gallery_grid_hide_mobile && wp_is_mobile() ) {
 //HIDE ON MOBILE
@@ -121,11 +121,11 @@ if ( $gallery_grid_hide_mobile && wp_is_mobile() ) {
 						<span class="loader-ellips__dot"></span>
 						<span class="loader-ellips__dot"></span>
 					</div>
-					<p class="infinite-scroll-last"><?php _e('End content', 'tkmnineteen'); ?></p>
-					<p class="infinite-scroll-error"><?php _e('No more to load', 'tkmnineteen'); ?></p>
+					<p class="infinite-scroll-last"><?php _e('End content', 'tkmulti'); ?></p>
+					<p class="infinite-scroll-error"><?php _e('No more to load', 'tkmulti'); ?></p>
 				</div>
 				<div class="pagination-button dark">
-				<button class="load-next-button section_readmore_link watch_btn hoverLink"><?php if ($show_more) { echo $show_more; } else { _e('Show more', 'tkmnineteen'); } ?></button>
+				<button class="load-next-button section_readmore_link watch_btn hoverLink"><?php if ($show_more) { echo $show_more; } else { _e('Show more', 'tkmulti'); } ?></button>
 				</div>					
 				<div class="pagination">
 					<?php echo '<a class="pagination__next" href="'.get_permalink().'page/'.($current_page+1).'/">'.__('Load more','textdomain').'</a>'; ?>
@@ -134,11 +134,11 @@ if ( $gallery_grid_hide_mobile && wp_is_mobile() ) {
 				<?php } else { ?>
 				<div class="grid_gallery_btn row-flex center-xs <?php echo $gallery_grid_btn_color; ?>">
 					<div class="grid_gallery_more col-xs-7 col-sm-3">
-						<button class="section_readmore_link watch_btn hoverLink"><?php if ($show_more) { echo $show_more; } else { _e('Show more', 'tkmnineteen'); } ?> 
+						<button class="section_readmore_link watch_btn hoverLink"><?php if ($show_more) { echo $show_more; } else { _e('Show more', 'tkmulti'); } ?> 
 						</button>
 					</div>
 					<div class="grid_gallery_less col-xs-7 col-sm-3">
-						<button class="section_readmore_link watch_btn hoverLink"><?php if ($show_less) { echo $show_less; } else {  _e('Show less', 'tkmnineteen'); } ?></button>
+						<button class="section_readmore_link watch_btn hoverLink"><?php if ($show_less) { echo $show_less; } else {  _e('Show less', 'tkmulti'); } ?></button>
 					</div>
 				</div>
 				<?php } ?>
